@@ -1,0 +1,12 @@
+services:
+  main:
+    depends_on:
+      - server
+  server:
+    build:
+      context: ./server
+    # Explicit networking keeps this service off Harbor's egress-control
+    # sidecar namespace, so the name "server" still resolves from main when
+    # [agent] network_mode is allowlist or no-network.
+    networks:
+      - default

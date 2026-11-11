@@ -1,0 +1,33 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "smoke/smoke-sidecar"
+version = "1.0.0"
+description = "Two-container smoke test"
+keywords = []
+[[task.authors]]
+name = "Smoke Tester"
+email = "smoke@example.com"
+
+[metadata]
+
+[verifier]
+timeout_sec = 120.0
+environment_mode = "shared"
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 120.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 600.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]
