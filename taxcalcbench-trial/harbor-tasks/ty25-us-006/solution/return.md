@@ -1,0 +1,19 @@
+Line 1a: Total amount from Form(s) W-2, box 1 (see instructions) | from expected output | 80000
+Line 9: Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7a, and 8. This is your total income | from expected output | 257000
+Line 10: Adjustments to income from Schedule 1, line 26 | from expected output | 7065
+Line 11a: Subtract line 10 from line 9. This is your adjusted gross income | from expected output | 249935
+Line 12e: Standard deduction or itemized deductions (from Schedule A) | from expected output | 15750
+Line 15: Subtract line 14 from line 11b. If zero or less, enter -0-. This is your taxable income | from expected output | 229310
+Line 16: Tax | from expected output | 48402
+Line 19: Child tax credit or credit for other dependents from Schedule 8812 | from expected output | 0
+Line 24: Add lines 22 and 23. This is your total tax | from expected output | 63983
+Line 25d: Add lines 25a through 25c | from expected output | 2000
+Line 26: 2025 estimated tax payments and amount applied from 2024 return | from expected output | 0
+Line 27a: Earned income credit (EIC) | from expected output | 0
+Line 28: Additional child tax credit (ACTC) from Schedule 8812 | from expected output | 0
+Line 29: American opportunity credit from Form 8863, line 8 | from expected output | 0
+Line 32: Add lines 27a, 28, 29, 30, and 31. These are your total other payments and refundable credits | from expected output | 0
+Line 33: Add lines 25d, 26, and 32. These are your total payments | from expected output | 2000
+Line 34: If line 33 is more than line 24, subtract line 24 from line 33. This is the amount you overpaid | from expected output | 0
+Line 35a: Amount of line 34 you want refunded to you. If Form 8888 is attached, check here | from expected output | 0
+Line 37: Subtract line 33 from line 24. This is the amount you owe | from expected output | 61983

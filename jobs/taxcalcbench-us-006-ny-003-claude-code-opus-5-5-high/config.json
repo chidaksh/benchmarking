@@ -1,0 +1,22 @@
+{
+    "job_name": "taxcalcbench-us-006-ny-003-claude-code-opus-5-5-high",
+    "n_concurrent_trials": 2,
+    "agents": [
+        {
+            "name": "claude-code",
+            "model_name": "anthropic/claude-opus-5-5",
+            "kwargs": {
+                "version": "2.1.322",
+                "reasoning_effort": "high"
+            }
+        }
+    ],
+    "datasets": [
+        {
+            "path": "taxcalcbench-trial/harbor-tasks",
+            "exclude_task_names": [
+                "ty25-ca-003"
+            ]
+        }
+    ]
+}

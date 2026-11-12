@@ -1,0 +1,28 @@
+  2/2 By_Line: 0.670 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:05:29 0:00:00
+harbor-tasks • claude-code • claude-opus-5-5
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┓
+┃ Trials ┃ Exceptions ┃ By_Line ┃ By_Line_Lenient ┃ Lenient ┃ Reward ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━┩
+│      2 │          0 │   0.670 │           0.778 │   0.500 │  0.000 │
+└────────┴────────────┴─────────┴─────────────────┴─────────┴────────┘
+
+┏━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Reward             ┃ Count ┃
+┡━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ 0                  │     2 │
+│ 0                  │     1 │
+│ 1                  │     1 │
+│ 0.4444444444444444 │     1 │
+│ 0.8947368421052632 │     1 │
+│ 0.5555555555555556 │     1 │
+│ 1.0                │     1 │
+└────────────────────┴───────┘
+
+Job Info
+Total runtime: 5m 29s
+Results written to 
+jobs/taxcalcbench-us-006-ny-003-claude-code-opus-5-5-high/result.json
+Inspect results by running `harbor view jobs`
+Share results by running `harbor upload 
+jobs/taxcalcbench-us-006-ny-003-claude-code-opus-5-5-high`
+

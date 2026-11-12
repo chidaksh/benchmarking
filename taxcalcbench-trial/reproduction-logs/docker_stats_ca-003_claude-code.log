@@ -1,0 +1,72 @@
+--- 21:14:24
+--- 21:14:39
+ty25-ca-003__e56anfw__env-main-1	70.51MiB / 5.782GiB	61.39%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	21.86MiB / 5.782GiB	0.37%
+--- 21:14:56
+ty25-ca-003__e56anfw__env-main-1	87.38MiB / 5.782GiB	84.86%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	21.6MiB / 5.782GiB	0.35%
+--- 21:15:12
+ty25-ca-003__e56anfw__env-main-1	152MiB / 5.782GiB	64.16%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	21.61MiB / 5.782GiB	0.38%
+--- 21:15:29
+ty25-ca-003__e56anfw__env-main-1	214.6MiB / 5.782GiB	62.24%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	21.61MiB / 5.782GiB	0.29%
+--- 21:15:45
+ty25-ca-003__e56anfw__env-main-1	220.6MiB / 5.782GiB	37.15%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	21.64MiB / 5.782GiB	0.29%
+--- 21:16:02
+ty25-ca-003__e56anfw__env-main-1	289.8MiB / 5.782GiB	165.57%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	22.22MiB / 5.782GiB	0.37%
+--- 21:16:19
+ty25-ca-003__e56anfw__env-main-1	270.2MiB / 5.782GiB	0.95%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	21.83MiB / 5.782GiB	0.36%
+--- 21:16:36
+ty25-ca-003__e56anfw__env-main-1	264MiB / 5.782GiB	0.92%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	22.81MiB / 5.782GiB	0.37%
+--- 21:16:53
+ty25-ca-003__e56anfw__env-main-1	263.4MiB / 5.782GiB	0.16%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	23.11MiB / 5.782GiB	0.30%
+--- 21:17:09
+ty25-ca-003__e56anfw__env-main-1	267.1MiB / 5.782GiB	0.33%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	22.55MiB / 5.782GiB	0.33%
+--- 21:17:26
+ty25-ca-003__e56anfw__env-main-1	267.3MiB / 5.782GiB	0.16%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	23.06MiB / 5.782GiB	0.33%
+--- 21:17:42
+ty25-ca-003__e56anfw__env-main-1	267.2MiB / 5.782GiB	0.21%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	22.88MiB / 5.782GiB	0.38%
+--- 21:17:59
+ty25-ca-003__e56anfw__env-main-1	268.3MiB / 5.782GiB	0.20%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	23.11MiB / 5.782GiB	0.34%
+--- 21:18:16
+ty25-ca-003__e56anfw__env-main-1	292.3MiB / 5.782GiB	0.20%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.27MiB / 5.782GiB	0.33%
+--- 21:18:32
+ty25-ca-003__e56anfw__env-main-1	288.8MiB / 5.782GiB	0.15%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	28.01MiB / 5.782GiB	0.40%
+--- 21:18:49
+ty25-ca-003__e56anfw__env-main-1	296.5MiB / 5.782GiB	1.18%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.33MiB / 5.782GiB	0.08%
+--- 21:19:05
+ty25-ca-003__e56anfw__env-main-1	291.6MiB / 5.782GiB	0.18%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.38MiB / 5.782GiB	0.31%
+--- 21:19:21
+ty25-ca-003__e56anfw__env-main-1	283.7MiB / 5.782GiB	1.10%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.38MiB / 5.782GiB	0.34%
+--- 21:19:38
+ty25-ca-003__e56anfw__env-main-1	282.2MiB / 5.782GiB	1.00%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.46MiB / 5.782GiB	0.50%
+--- 21:19:55
+ty25-ca-003__e56anfw__env-main-1	281.6MiB / 5.782GiB	0.10%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.35MiB / 5.782GiB	0.32%
+--- 21:20:11
+ty25-ca-003__e56anfw__env-main-1	282.9MiB / 5.782GiB	0.08%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.46MiB / 5.782GiB	0.31%
+--- 21:20:27
+ty25-ca-003__e56anfw__env-main-1	292.5MiB / 5.782GiB	0.25%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.85MiB / 5.782GiB	0.37%
+--- 21:20:44
+ty25-ca-003__e56anfw__env-main-1	165.6MiB / 5.782GiB	0.00%
+ty25-ca-003__e56anfw__env-harbor-docker-egress-control-sidecar-1	27.88MiB / 5.782GiB	0.29%
+--- 21:21:01
+ty25-ca-003__e56anfw__verifier__trial-main-1	1.285MiB / 5.782GiB	0.00%

@@ -1,0 +1,79 @@
+--- 21:24:02
+--- 21:24:17
+ty25-us-006__gyorrur__env-main-1	71.18MiB / 5.782GiB	61.49%
+ty25-ny-003__mj4wggd__env-main-1	69.16MiB / 5.782GiB	14.79%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	21.83MiB / 5.782GiB	0.35%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	19.77MiB / 5.782GiB	0.43%
+--- 21:24:33
+ty25-us-006__gyorrur__env-main-1	84.8MiB / 5.782GiB	91.76%
+ty25-ny-003__mj4wggd__env-main-1	127.1MiB / 5.782GiB	100.44%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	21.57MiB / 5.782GiB	0.36%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	19.77MiB / 5.782GiB	0.33%
+--- 21:24:50
+ty25-us-006__gyorrur__env-main-1	197.8MiB / 5.782GiB	118.40%
+ty25-ny-003__mj4wggd__env-main-1	135.1MiB / 5.782GiB	55.98%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	21.57MiB / 5.782GiB	0.38%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	19.77MiB / 5.782GiB	0.30%
+--- 21:25:07
+ty25-us-006__gyorrur__env-main-1	208.5MiB / 5.782GiB	69.13%
+ty25-ny-003__mj4wggd__env-main-1	192.4MiB / 5.782GiB	94.43%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	21.57MiB / 5.782GiB	0.35%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	19.79MiB / 5.782GiB	0.32%
+--- 21:25:24
+ty25-us-006__gyorrur__env-main-1	223.3MiB / 5.782GiB	17.39%
+ty25-ny-003__mj4wggd__env-main-1	232.2MiB / 5.782GiB	78.46%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	21.57MiB / 5.782GiB	0.32%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.01MiB / 5.782GiB	0.32%
+--- 21:25:41
+ty25-us-006__gyorrur__env-main-1	146.9MiB / 5.782GiB	49.87%
+ty25-ny-003__mj4wggd__env-main-1	219.6MiB / 5.782GiB	20.18%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	21.91MiB / 5.782GiB	0.34%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.28MiB / 5.782GiB	0.33%
+--- 21:25:59
+ty25-us-006__gyorrur__env-main-1	222.2MiB / 5.782GiB	25.55%
+ty25-ny-003__mj4wggd__env-main-1	153.2MiB / 5.782GiB	33.62%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	22MiB / 5.782GiB	2.05%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.29MiB / 5.782GiB	0.31%
+--- 21:26:16
+ty25-us-006__gyorrur__env-main-1	271.9MiB / 5.782GiB	1.04%
+ty25-ny-003__mj4wggd__env-main-1	270.3MiB / 5.782GiB	0.87%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	25.68MiB / 5.782GiB	0.39%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.57MiB / 5.782GiB	0.31%
+--- 21:26:33
+ty25-us-006__gyorrur__env-main-1	277MiB / 5.782GiB	0.93%
+ty25-ny-003__mj4wggd__env-main-1	282.3MiB / 5.782GiB	0.92%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	25.48MiB / 5.782GiB	0.32%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.36MiB / 5.782GiB	0.33%
+--- 21:26:50
+ty25-us-006__gyorrur__env-main-1	279.2MiB / 5.782GiB	0.07%
+ty25-ny-003__mj4wggd__env-main-1	281.2MiB / 5.782GiB	0.19%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	25.2MiB / 5.782GiB	0.32%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	25.05MiB / 5.782GiB	0.36%
+--- 21:27:07
+ty25-us-006__gyorrur__env-main-1	151.3MiB / 5.782GiB	6.09%
+ty25-ny-003__mj4wggd__env-main-1	284.6MiB / 5.782GiB	0.18%
+ty25-us-006__gyorrur__env-harbor-docker-egress-control-sidecar-1	25.18MiB / 5.782GiB	1.33%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.36MiB / 5.782GiB	0.31%
+--- 21:27:24
+ty25-ny-003__mj4wggd__env-main-1	283.3MiB / 5.782GiB	0.29%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.35MiB / 5.782GiB	0.43%
+ty25-us-006__gyorrur__verifier__trial-main-1	1.293MiB / 5.782GiB	158.61%
+--- 21:27:42
+ty25-ny-003__mj4wggd__env-main-1	282.6MiB / 5.782GiB	0.29%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.64MiB / 5.782GiB	0.33%
+--- 21:27:59
+ty25-ny-003__mj4wggd__env-main-1	281MiB / 5.782GiB	0.21%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	25.14MiB / 5.782GiB	0.30%
+--- 21:28:16
+ty25-ny-003__mj4wggd__env-main-1	274.5MiB / 5.782GiB	0.10%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.46MiB / 5.782GiB	0.31%
+--- 21:28:32
+ty25-ny-003__mj4wggd__env-main-1	275.3MiB / 5.782GiB	0.14%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.93MiB / 5.782GiB	0.45%
+--- 21:28:49
+ty25-ny-003__mj4wggd__env-main-1	275.1MiB / 5.782GiB	0.14%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	25.35MiB / 5.782GiB	0.32%
+--- 21:29:05
+ty25-ny-003__mj4wggd__env-main-1	151.1MiB / 5.782GiB	0.85%
+ty25-ny-003__mj4wggd__env-harbor-docker-egress-control-sidecar-1	24.98MiB / 5.782GiB	0.42%
+--- 21:29:21

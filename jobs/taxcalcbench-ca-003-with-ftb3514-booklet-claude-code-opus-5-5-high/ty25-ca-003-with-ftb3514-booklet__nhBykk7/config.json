@@ -1,0 +1,16 @@
+{
+    "task": {
+        "path": "taxcalcbench-trial/harbor-tasks/ty25-ca-003-with-ftb3514-booklet"
+    },
+    "trial_name": "ty25-ca-003-with-ftb3514-booklet__nhBykk7",
+    "trials_dir": "jobs/taxcalcbench-ca-003-with-ftb3514-booklet-claude-code-opus-5-5-high",
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-opus-5-5",
+        "kwargs": {
+            "version": "2.1.322",
+            "reasoning_effort": "high"
+        }
+    },
+    "job_id": "5b6b447b-e1a2-48b8-b57b-d5c864452515"
+}

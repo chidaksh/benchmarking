@@ -1,0 +1,30 @@
+Inference credentials: 1 mappings across 2 trials
+claude-code / anthropic (2 trials): ANTHROPIC_API_KEY → ANTHROPIC_API_KEY; base URL=https://api.anthropic.com (best guess; not injected); API format=anthropic_messages (agent_default)
+Skipping image OS validation for hb__eafeb70500a993f049247cb14c250a73: docker inspect returned 1
+Skipping image OS validation for hb__49c9e7195a9d052ede9644523dfe81b6: docker inspect returned 1
+Running command: apt-get update && apt-get install -y curl nodejs npm procps
+Running command: apt-get update && apt-get install -y curl nodejs npm procps
+Command outputs captured
+Running command: set -euo pipefail; if command -v apk &> /dev/null; then  npm install -g @anthropic-ai/claude-code@2.1.322; else  curl -fsSL https://downloads.claude.ai/claude-code-releases/bootstrap.sh | bash -s -- 2.1.322; fi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && export PATH="$HOME/.local/bin:$PATH" && claude --version
+Command outputs captured
+Running command: set -euo pipefail; if command -v apk &> /dev/null; then  npm install -g @anthropic-ai/claude-code@2.1.322; else  curl -fsSL https://downloads.claude.ai/claude-code-releases/bootstrap.sh | bash -s -- 2.1.322; fi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && export PATH="$HOME/.local/bin:$PATH" && claude --version
+Command outputs captured
+Allowlisting inference host 'api.anthropic.com' for agent 'claude-code' from a best guess; the agent/SDK still selects its default endpoint.
+Agent 'claude-code': automatically applied disable_web_search=True because the rollout network policy is restricted.
+Running command: mkdir -p $CLAUDE_CONFIG_DIR/debug $CLAUDE_CONFIG_DIR/projects/-app $CLAUDE_CONFIG_DIR/shell-snapshots $CLAUDE_CONFIG_DIR/statsig $CLAUDE_CONFIG_DIR/todos $CLAUDE_CONFIG_DIR/skills && if [ -d ~/.claude/skills ]; then cp -r ~/.claude/skills/. $CLAUDE_CONFIG_DIR/skills/ 2>/dev/null || true; fi
+Command outputs captured
+Running command: export PATH="$HOME/.local/bin:$PATH"; claude_code_instruction_5021b03f001845a5a54630bcdc4c96b1="$CLAUDE_CODE_INSTRUCTION_5021B03F001845A5A54630BCDC4C96B1"; unset CLAUDE_CODE_INSTRUCTION_5021B03F001845A5A54630BCDC4C96B1; printf "%s" "$claude_code_instruction_5021b03f001845a5a54630bcdc4c96b1" | claude --verbose --output-format=stream-json --effort high --disallowedTools WebSearch,WebFetch --permission-mode=bypassPermissions --print 2>&1 | tee /logs/agent/claude-code.txt
+Command outputs captured
+Allowlisting inference host 'api.anthropic.com' for agent 'claude-code' from a best guess; the agent/SDK still selects its default endpoint.
+Agent 'claude-code': automatically applied disable_web_search=True because the rollout network policy is restricted.
+Running command: mkdir -p $CLAUDE_CONFIG_DIR/debug $CLAUDE_CONFIG_DIR/projects/-app $CLAUDE_CONFIG_DIR/shell-snapshots $CLAUDE_CONFIG_DIR/statsig $CLAUDE_CONFIG_DIR/todos $CLAUDE_CONFIG_DIR/skills && if [ -d ~/.claude/skills ]; then cp -r ~/.claude/skills/. $CLAUDE_CONFIG_DIR/skills/ 2>/dev/null || true; fi
+Command outputs captured
+Running command: export PATH="$HOME/.local/bin:$PATH"; claude_code_instruction_3a3b038e354b49308f843d1535fef834="$CLAUDE_CODE_INSTRUCTION_3A3B038E354B49308F843D1535FEF834"; unset CLAUDE_CODE_INSTRUCTION_3A3B038E354B49308F843D1535FEF834; printf "%s" "$claude_code_instruction_3a3b038e354b49308f843d1535fef834" | claude --verbose --output-format=stream-json --effort high --disallowedTools WebSearch,WebFetch --permission-mode=bypassPermissions --print 2>&1 | tee /logs/agent/claude-code.txt
+Command outputs captured
+Wrote Claude Code trajectory to jobs/taxcalcbench-us-006-ny-003-claude-code-opus-5-5-high/ty25-us-006__gYoRrUR/agent/trajectory.json
+Collecting main service artifacts
+Skipping image OS validation for hb__b0f79857cfbfa8a833509fe13b5f86ca: docker inspect returned 1
+Command outputs captured
+Wrote Claude Code trajectory to jobs/taxcalcbench-us-006-ny-003-claude-code-opus-5-5-high/ty25-ny-003__mj4wGGD/agent/trajectory.json
+Collecting main service artifacts
+Skipping image OS validation for hb__1a97a8b5e7732dd700417e5dfbb2dfe2: docker inspect returned 1

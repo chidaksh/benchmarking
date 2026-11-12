@@ -1,0 +1,67 @@
+{
+    "id": "b54b6056-a588-4497-a9b4-82374e814782",
+    "started_at": "2026-11-11T21:24:04.820700",
+    "updated_at": "2026-11-11T21:29:34.792360",
+    "finished_at": "2026-11-11T21:29:34.792360",
+    "n_total_trials": 2,
+    "stats": {
+        "n_completed_trials": 2,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-5-5__harbor-tasks": {
+                "n_trials": 2,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "by_line": 0.6695906432748537,
+                        "by_line_lenient": 0.7777777777777778,
+                        "lenient": 0.5,
+                        "reward": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0": [
+                            "ty25-ny-003__mj4wGGD",
+                            "ty25-us-006__gYoRrUR"
+                        ]
+                    },
+                    "lenient": {
+                        "0": [
+                            "ty25-ny-003__mj4wGGD"
+                        ],
+                        "1": [
+                            "ty25-us-006__gYoRrUR"
+                        ]
+                    },
+                    "by_line": {
+                        "0.4444444444444444": [
+                            "ty25-ny-003__mj4wGGD"
+                        ],
+                        "0.8947368421052632": [
+                            "ty25-us-006__gYoRrUR"
+                        ]
+                    },
+                    "by_line_lenient": {
+                        "0.5555555555555556": [
+                            "ty25-ny-003__mj4wGGD"
+                        ],
+                        "1.0": [
+                            "ty25-us-006__gYoRrUR"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 418282,
+        "n_cache_tokens": 342838,
+        "n_output_tokens": 25553,
+        "cost_usd": 0.9568236000000001
+    }
+}
