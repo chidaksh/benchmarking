@@ -44,4 +44,5 @@ harbor view jobs
 
 This serves the runs in `jobs/` at http://127.0.0.1:8080.
 
-On the `taxcalcbench-trial` branch, `jobs/` holds only the Claude Code with Opus 5.5 runs listed in `taxcalcbench-trial/README.md`.
+The `taxcalcbench-trial` branch also holds trial tasks and checks under `taxcalcbench-trial/`, which are not the submission.
+On that branch, `jobs/` holds only the Claude Code with Opus 5.5 runs listed in `taxcalcbench-trial/README.md`.

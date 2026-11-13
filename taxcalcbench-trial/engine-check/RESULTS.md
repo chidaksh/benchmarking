@@ -85,10 +85,14 @@ Household: single filer.
 ## Not checked
 
 - Federal income tax was compared with the commercial engine on one case only (`ty25-us-006`).
-- The lower capital gains rates were not checked independently, because the household has a net loss every year; they appear only in the "nothing carried" column, where they match a hand calculation at 22% and 15%.
+- The lower capital gains rates were not checked independently at this stage, because the first household has a net loss every year.
+  Resolved later: the second household has a net-gain year, and the independent script now covers it.
 - The Publication 550 example does not say whether its loss is short-term or long-term, so it checks the total carried, not the split by type.
-- The worksheet text is from the 2025 instructions and was applied to 2023 and 2024 on the assumption that its structure is the same.
-- The 2023 brackets, the 2025 brackets up to 22% and all three standard deductions were confirmed on irs.gov; the 2024 bracket thresholds were not, though the engine agrees with them to the dollar.
+  Resolved later: the split was checked three ways on generated cases, in the carryover cross-check below.
+- The worksheet text is from the 2025 instructions and was applied to 2023 and 2024.
+  Partly resolved later: the 2023 and 2024 Schedule D instructions were confirmed to contain the worksheet by matching five of its lines, not by a full line-by-line comparison.
+- The 2023 brackets, the 2025 brackets up to 22% and all three standard deductions were confirmed on irs.gov; the 2024 bracket thresholds were not at this stage.
+  Resolved later: the 2024 figures reproduce a row copied from the 2024 IRS Tax Table.
 - No state return was run in the chain.
 - The engine returns cents where forms round to dollars, which was within tolerance here and was not studied further.
 
@@ -178,7 +182,8 @@ Household: single filer.
 
 ### Not checked
 
-- No fully independent source was used for the net-gain years; they rest on the two engines agreeing and on the earlier hand calculation.
+- No fully independent source was used for the net-gain years at this stage; they rested on the two engines agreeing and on the earlier hand calculation.
+  Resolved later: the independent script was extended to net-gain years for the second household.
 - Only two Virginia cases exist to test PolicyEngine's state amounts, and both are simple.
 - PolicyEngine is licensed AGPL-3.0, which matters only if it is shipped inside the task's verifier image.
 
