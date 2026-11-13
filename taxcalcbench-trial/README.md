@@ -28,10 +28,24 @@ A check of whether known tax calculation failures of Opus 5.5 carry over to Clau
 
 ## Saved runs
 
-The repository's `jobs/` folder holds only the Claude Code with Opus 5.5 runs for these four samples, and `harbor view jobs` opens them without Docker or an API key.
+The repository's `jobs/` folder holds only Claude Code with Opus 5.5 runs, and `harbor view jobs` opens them without Docker or an API key.
 
+TaxCalcBench samples:
 - `jobs/taxcalcbench-ca-003-claude-code-opus-5-5-high`: `ty25-ca-003`.
 - `jobs/taxcalcbench-ca-003-with-ftb3514-booklet-claude-code-opus-5-5-high`: `ty25-ca-003` with the booklet.
 - `jobs/taxcalcbench-us-006-ny-003-claude-code-opus-5-5-high`: `ty25-us-006` and `ty25-ny-003`.
+- `jobs/taxcalcbench-ny-003-reasoning-claude-code-opus-5-5-high`: `ty25-ny-003` again with reasoning summaries on.
+  It failed again, 8 of 18 lines correct, and this time counted the $845 as other income, which put adjusted gross income $587 above the expected amount.
+
+Multi-year chain:
+- `jobs/chain-households-claude-code-opus-5-5-high`: both chain households, each passed with 18 of 18 amounts correct.
 
 The plain Opus 5.5 runs are not in `jobs/`; their output is in `reproduction-logs/`.
+
+## Later work on this branch
+
+- `engine-check/`: a test of two open tax engines, tenforty and PolicyEngine-US, as the answer key for households we write, including a three-year capital loss carryover chain.
+  Results are in `engine-check/RESULTS.md`.
+- `multi-year-chain/`: two Harbor tasks that ask for three consecutive federal returns (2023 to 2025) for one taxpayer.
+  `make_chain_task.py` builds them from the blank IRS forms in `irs-forms/`, and `run-logs/` has Harbor's output.
+- Claude Code with Opus 5.5 passed both chain tasks in about one minute of work each, so the plain chain is not a hard task.
