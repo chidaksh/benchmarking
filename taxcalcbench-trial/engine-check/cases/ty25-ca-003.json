@@ -1,0 +1,61 @@
+{
+  "case": "ty25-ca-003",
+  "state": "CA",
+  "fully_represented": false,
+  "notes": [
+    "Trial case.",
+    "Taxable dependent care benefits are added to wages by hand because the engine has no input for W-2 box 10."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Married/Joint",
+      "source": "data file irs1040/filing_status"
+    },
+    "num_dependents": {
+      "value": 2,
+      "source": "data file irs1040/dependent_detail, born 2018 and 2019"
+    },
+    "w2_income": {
+      "value": 47500,
+      "source": "W-2 box 1: 22,000 + 19,500, plus taxable dependent care benefits 6,000 (box 10: 3,000 + 3,000, no exclusion allowed)"
+    },
+    "self_employment_income": {
+      "value": -31000,
+      "source": "data file irs1040_schedulec: receipts 50,000 less advertising 1,000, supplies 1,000, licenses 1,000, travel 3,000, wages 75,000"
+    }
+  },
+  "not_represented": [
+    {
+      "item": "Form 2441 taxable dependent care benefits",
+      "amount": 6000,
+      "effect": "computed by hand and added to wages"
+    },
+    {
+      "item": "California earned income credit",
+      "amount": 1078,
+      "effect": "refundable payment, outside the compared lines"
+    }
+  ],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 16500,
+      "source": "Form 540 line 13"
+    },
+    "state_adjusted_gross_income": {
+      "value": 16500,
+      "source": "Form 540 line 17"
+    },
+    "state_taxable_income": {
+      "value": 5088,
+      "source": "Form 540 line 19"
+    },
+    "state_tax_before_credits": {
+      "value": 51,
+      "source": "Form 540 line 31"
+    },
+    "state_total_tax": {
+      "value": 0,
+      "source": "Form 540 line 64 is blank (line 31 of 51 less exemption credits 1,256)"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "case": "ty25-il-006",
+  "state": "IL",
+  "fully_represented": true,
+  "notes": [
+    "Relaxed rule: the expected return claims Illinois credits of 500 (educator expenses), which the engine has no input for, so only tax before credits is comparable."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Married/Sep",
+      "source": "data file irs1040/filing_status"
+    },
+    "w2_income": {
+      "value": 30000,
+      "source": "W-2 box 1 (w2_1.pdf)"
+    }
+  },
+  "not_represented": [
+    {
+      "item": "Illinois credits",
+      "amount": 500,
+      "effect": "reduces Illinois total tax, line 23"
+    }
+  ],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 30000,
+      "source": "IL-1040 line 1"
+    },
+    "state_adjusted_gross_income": {
+      "value": 30000,
+      "source": "IL-1040 line 9, base income"
+    },
+    "state_taxable_income": {
+      "value": 27150,
+      "source": "IL-1040 line 11, net income"
+    },
+    "state_tax_before_credits": {
+      "value": 1344,
+      "source": "IL-1040 line 14"
+    },
+    "state_total_tax": {
+      "value": 844,
+      "source": "IL-1040 line 23 (after credits of 500)"
+    }
+  }
+}

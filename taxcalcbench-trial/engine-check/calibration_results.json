@@ -1,0 +1,532 @@
+[
+  {
+    "case": "ty25-ca-003",
+    "fully_represented": false,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 16500,
+    "ots": 16500.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-003",
+    "fully_represented": false,
+    "amount": "state_adjusted_gross_income",
+    "expected": 16500,
+    "ots": 16500.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-003",
+    "fully_represented": false,
+    "amount": "state_taxable_income",
+    "expected": 5088,
+    "ots": 5088.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-003",
+    "fully_represented": false,
+    "amount": "state_tax_before_credits",
+    "expected": 51,
+    "ots": 0.0,
+    "ots_verdict": "OFF (-51)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-003",
+    "fully_represented": false,
+    "amount": "state_total_tax",
+    "expected": 0,
+    "ots": 0.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-006",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 98100,
+    "ots": 98100.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-006",
+    "fully_represented": true,
+    "amount": "state_adjusted_gross_income",
+    "expected": 98100,
+    "ots": 98100.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-006",
+    "fully_represented": true,
+    "amount": "state_taxable_income",
+    "expected": 86688,
+    "ots": 86688.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-006",
+    "fully_represented": true,
+    "amount": "state_tax_before_credits",
+    "expected": 2272,
+    "ots": 1966.0,
+    "ots_verdict": "OFF (-306)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-006",
+    "fully_represented": true,
+    "amount": "state_total_tax",
+    "expected": 1966,
+    "ots": 1966.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-010",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 13000,
+    "ots": 13000.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-010",
+    "fully_represented": true,
+    "amount": "state_adjusted_gross_income",
+    "expected": 13000,
+    "ots": 13000.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-010",
+    "fully_represented": true,
+    "amount": "state_taxable_income",
+    "expected": 7294,
+    "ots": 7294.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-010",
+    "fully_represented": true,
+    "amount": "state_tax_before_credits",
+    "expected": 73,
+    "ots": 0.0,
+    "ots_verdict": "OFF (-73)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ca-010",
+    "fully_represented": true,
+    "amount": "state_total_tax",
+    "expected": 0,
+    "ots": 0.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-il-005",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 48022,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 48022.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-005",
+    "fully_represented": true,
+    "amount": "state_adjusted_gross_income",
+    "expected": 48022,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 48022.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-005",
+    "fully_represented": true,
+    "amount": "state_taxable_income",
+    "expected": 39472,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 39472.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-005",
+    "fully_represented": true,
+    "amount": "state_tax_before_credits",
+    "expected": 1954,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 1954.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-005",
+    "fully_represented": true,
+    "amount": "state_total_tax",
+    "expected": 1653,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 1954.0,
+    "graph_verdict": "OFF (+301)"
+  },
+  {
+    "case": "ty25-il-006",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 30000,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 30000.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-006",
+    "fully_represented": true,
+    "amount": "state_adjusted_gross_income",
+    "expected": 30000,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 30000.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-006",
+    "fully_represented": true,
+    "amount": "state_taxable_income",
+    "expected": 27150,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 27150.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-006",
+    "fully_represented": true,
+    "amount": "state_tax_before_credits",
+    "expected": 1344,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 1344.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-il-006",
+    "fully_represented": true,
+    "amount": "state_total_tax",
+    "expected": 844,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": 1344.0,
+    "graph_verdict": "OFF (+500)"
+  },
+  {
+    "case": "ty25-ny-003",
+    "fully_represented": false,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 32870,
+    "ots": 34126.26,
+    "ots_verdict": "OFF (+1256.26)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-003",
+    "fully_represented": false,
+    "amount": "state_adjusted_gross_income",
+    "expected": 32580,
+    "ots": 34126.26,
+    "ots_verdict": "OFF (+1546.26)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-003",
+    "fully_represented": false,
+    "amount": "state_taxable_income",
+    "expected": 15530,
+    "ots": 18076.26,
+    "ots_verdict": "OFF (+2546.26)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-003",
+    "fully_represented": false,
+    "amount": "state_tax_before_credits",
+    "expected": 621,
+    "ots": 728.0,
+    "ots_verdict": "OFF (+107)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-003",
+    "fully_represented": false,
+    "amount": "state_total_tax",
+    "expected": 621,
+    "ots": 728.0,
+    "ots_verdict": "OFF (+107)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-009",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 18001,
+    "ots": 18001.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-009",
+    "fully_represented": true,
+    "amount": "state_adjusted_gross_income",
+    "expected": 18001,
+    "ots": 18001.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-009",
+    "fully_represented": true,
+    "amount": "state_taxable_income",
+    "expected": 10001,
+    "ots": 10001.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-009",
+    "fully_represented": true,
+    "amount": "state_tax_before_credits",
+    "expected": 409,
+    "ots": 364.0,
+    "ots_verdict": "OFF (-45)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-ny-009",
+    "fully_represented": true,
+    "amount": "state_total_tax",
+    "expected": 364,
+    "ots": 364.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 249935,
+    "ots": 249935.23,
+    "ots_verdict": "within $5 (+0.23)",
+    "graph": 249935.225,
+    "graph_verdict": "within $5 (+0.23)"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_qbi_deduction",
+    "expected": 4875,
+    "ots": 4875.297714569997,
+    "ots_verdict": "within $5 (+0.3)",
+    "graph": 4875.298261797499,
+    "graph_verdict": "within $5 (+0.3)"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_taxable_income",
+    "expected": 229310,
+    "ots": 229309.93,
+    "ots_verdict": "within $5 (-0.07)",
+    "graph": 229309.9267382025,
+    "graph_verdict": "within $5 (-0.07)"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_income_tax",
+    "expected": 48402,
+    "ots": 48402.18,
+    "ots_verdict": "within $5 (+0.18)",
+    "graph": 48402.1765562248,
+    "graph_verdict": "within $5 (+0.18)"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_se_tax",
+    "expected": 14129,
+    "ots": 14129.55,
+    "ots_verdict": "within $5 (+0.55)",
+    "graph": 14129.55,
+    "graph_verdict": "within $5 (+0.55)"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_niit",
+    "expected": 1026,
+    "ots": 1026.0,
+    "ots_verdict": "exact",
+    "graph": 1026.0,
+    "graph_verdict": "exact"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_additional_medicare_tax",
+    "expected": 426,
+    "ots": 426.15,
+    "ots_verdict": "within $5 (+0.15)",
+    "graph": 426.15,
+    "graph_verdict": "within $5 (+0.15)"
+  },
+  {
+    "case": "ty25-us-006",
+    "fully_represented": true,
+    "amount": "federal_total_tax",
+    "expected": 63983,
+    "ots": 63983.88,
+    "ots_verdict": "within $5 (+0.88)",
+    "graph": 63983.8765562248,
+    "graph_verdict": "within $5 (+0.88)"
+  },
+  {
+    "case": "ty25-va-003",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 46311,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-003",
+    "fully_represented": true,
+    "amount": "state_adjusted_gross_income",
+    "expected": 46311,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-003",
+    "fully_represented": true,
+    "amount": "state_taxable_income",
+    "expected": 34771,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-003",
+    "fully_represented": true,
+    "amount": "state_tax_before_credits",
+    "expected": 1741,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-003",
+    "fully_represented": true,
+    "amount": "state_total_tax",
+    "expected": 1741,
+    "ots": null,
+    "ots_verdict": "did not run",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-009",
+    "fully_represented": true,
+    "amount": "federal_adjusted_gross_income",
+    "expected": 11000,
+    "ots": 11000.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-009",
+    "fully_represented": true,
+    "amount": "state_adjusted_gross_income",
+    "expected": 11000,
+    "ots": 11000.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-009",
+    "fully_represented": true,
+    "amount": "state_taxable_income",
+    "expected": 1320,
+    "ots": 1320.0,
+    "ots_verdict": "exact",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-009",
+    "fully_represented": true,
+    "amount": "state_tax_before_credits",
+    "expected": 0,
+    "ots": 26.4,
+    "ots_verdict": "OFF (+26.4)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  },
+  {
+    "case": "ty25-va-009",
+    "fully_represented": true,
+    "amount": "state_total_tax",
+    "expected": 0,
+    "ots": 26.4,
+    "ots_verdict": "OFF (+26.4)",
+    "graph": null,
+    "graph_verdict": "did not run"
+  }
+]

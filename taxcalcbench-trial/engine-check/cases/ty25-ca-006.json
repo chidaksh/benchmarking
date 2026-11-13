@@ -1,0 +1,41 @@
+{
+  "case": "ty25-ca-006",
+  "state": "CA",
+  "fully_represented": true,
+  "notes": [
+    "California use tax of $12 is entered directly on the form and is outside the compared lines."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Married/Joint",
+      "source": "data file irs1040/filing_status"
+    },
+    "w2_income": {
+      "value": 98100,
+      "source": "W-2 box 1: 54,600 (w2_1.pdf) + 43,500 (w2_2.pdf)"
+    }
+  },
+  "not_represented": [],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 98100,
+      "source": "Form 540 line 13"
+    },
+    "state_adjusted_gross_income": {
+      "value": 98100,
+      "source": "Form 540 line 17"
+    },
+    "state_taxable_income": {
+      "value": 86688,
+      "source": "Form 540 line 19"
+    },
+    "state_tax_before_credits": {
+      "value": 2272,
+      "source": "Form 540 line 31"
+    },
+    "state_total_tax": {
+      "value": 1966,
+      "source": "Form 540 line 64 (line 31 less exemption credits 306)"
+    }
+  }
+}

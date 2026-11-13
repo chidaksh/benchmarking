@@ -1,0 +1,24 @@
+schema_version = "1.4"
+artifacts = ["/app/output/returns.json"]
+
+[task]
+name = "multi-year-chain/household-2"
+version = "1.0.0"
+description = "Three consecutive federal returns for one taxpayer, household-2"
+keywords = []
+
+[metadata]
+
+[verifier]
+timeout_sec = 600.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 1200.0
+network_mode = "allowlist"
+allowed_hosts = ["api.anthropic.com"]
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"

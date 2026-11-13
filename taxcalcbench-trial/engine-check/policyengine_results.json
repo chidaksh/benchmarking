@@ -1,0 +1,141 @@
+{
+  "ty25-us-006": {
+    "gambling_not_entered": {
+      "federal_adjusted_gross_income": 199935.22,
+      "federal_qbi_deduction": 18587.04,
+      "federal_taxable_income": 165598.17,
+      "federal_income_tax": 31510.56,
+      "federal_se_tax": 14129.55,
+      "federal_niit": 1026.0,
+      "federal_additional_medicare_tax": 426.15,
+      "federal_total_tax": 47092.26
+    },
+    "gambling_as_miscellaneous_income": {
+      "federal_adjusted_gross_income": 249935.22,
+      "federal_qbi_deduction": 4875.3,
+      "federal_taxable_income": 229309.92,
+      "federal_income_tax": 48402.18,
+      "federal_se_tax": 14129.55,
+      "federal_niit": 1026.0,
+      "federal_additional_medicare_tax": 426.15,
+      "federal_total_tax": 63983.87
+    }
+  },
+  "chain": {
+    "correct": [
+      {
+        "year": 2023,
+        "net_short": -6000,
+        "net_long": -14000,
+        "agi": 93200.0,
+        "taxable_income": 79350.0,
+        "total_tax": 12764.5,
+        "carry_out_short": 3000,
+        "carry_out_long": 14000,
+        "agrees": true
+      },
+      {
+        "year": 2024,
+        "net_short": -2000,
+        "net_long": -10000,
+        "agi": 96300.0,
+        "taxable_income": 81700.0,
+        "total_tax": 13027.0,
+        "carry_out_short": 0,
+        "carry_out_long": 9000,
+        "agrees": true
+      },
+      {
+        "year": 2025,
+        "net_short": 5000,
+        "net_long": 3000,
+        "agi": 110400.0,
+        "taxable_income": 94650.0,
+        "total_tax": 15527.0,
+        "carry_out_short": 0,
+        "carry_out_long": 0,
+        "agrees": true
+      }
+    ],
+    "whole_loss_deducted_year1": [
+      {
+        "year": 2023,
+        "net_short": -6000,
+        "net_long": -14000,
+        "agi": 93200.0,
+        "taxable_income": 79350.0,
+        "total_tax": 12764.5,
+        "carry_out_short": 0,
+        "carry_out_long": 0
+      },
+      {
+        "year": 2024,
+        "net_short": 1000,
+        "net_long": 4000,
+        "agi": 104300.0,
+        "taxable_income": 89700.0,
+        "total_tax": 14507.0,
+        "carry_out_short": 0,
+        "carry_out_long": 0
+      },
+      {
+        "year": 2025,
+        "net_short": 5000,
+        "net_long": 12000,
+        "agi": 119400.0,
+        "taxable_income": 103650.0,
+        "total_tax": 16877.0,
+        "carry_out_short": 0,
+        "carry_out_long": 0
+      }
+    ],
+    "carryover_not_reduced": [
+      {
+        "year": 2023,
+        "net_short": -6000,
+        "net_long": -14000,
+        "agi": 93200.0,
+        "taxable_income": 79350.0,
+        "total_tax": 12764.5,
+        "carry_out_short": 6000,
+        "carry_out_long": 14000
+      },
+      {
+        "year": 2024,
+        "net_short": -5000,
+        "net_long": -10000,
+        "agi": 96300.0,
+        "taxable_income": 81700.0,
+        "total_tax": 13027.0,
+        "carry_out_short": 2000,
+        "carry_out_long": 10000
+      },
+      {
+        "year": 2025,
+        "net_short": 3000,
+        "net_long": 2000,
+        "agi": 107400.0,
+        "taxable_income": 91650.0,
+        "total_tax": 14937.0,
+        "carry_out_short": 0,
+        "carry_out_long": 0
+      }
+    ]
+  },
+  "virginia": {
+    "ty25-va-009": {
+      "federal_adjusted_gross_income": 11000.0,
+      "state_adjusted_gross_income": 11000.0,
+      "state_taxable_income": 1320.0,
+      "state_tax_before_credits": 0.0,
+      "state_total_tax": 0.0
+    },
+    "ty25-va-003": {
+      "federal_adjusted_gross_income": 46311.0,
+      "state_adjusted_gross_income": 46311.0,
+      "state_taxable_income": 34771.0,
+      "state_tax_before_credits": 1741.83,
+      "state_total_tax": 1278.55
+    }
+  }
+}

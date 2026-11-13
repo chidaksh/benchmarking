@@ -1,0 +1,53 @@
+{
+  "case": "ty25-va-003",
+  "state": "VA",
+  "fully_represented": true,
+  "notes": [
+    "Relaxed rule: two children bring a federal child tax credit and a Virginia low-income credit of 463, both outside the compared lines."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Head_of_House",
+      "source": "data file irs1040/filing_status"
+    },
+    "num_dependents": {
+      "value": 2,
+      "source": "data file irs1040/dependent_detail, born 2022 and 2024"
+    },
+    "w2_income": {
+      "value": 45000,
+      "source": "W-2 box 1 (w2_1.pdf)"
+    },
+    "ordinary_dividends": {
+      "value": 1311,
+      "source": "1099-DIV box 1a (1099div_1.pdf)"
+    },
+    "qualified_dividends": {
+      "value": 0,
+      "source": "1099-DIV box 1b is blank"
+    }
+  },
+  "not_represented": [],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 46311,
+      "source": "Form 760 line 1"
+    },
+    "state_adjusted_gross_income": {
+      "value": 46311,
+      "source": "Form 760 line 9"
+    },
+    "state_taxable_income": {
+      "value": 34771,
+      "source": "Form 760 line 15"
+    },
+    "state_tax_before_credits": {
+      "value": 1741,
+      "source": "Form 760 line 16"
+    },
+    "state_total_tax": {
+      "value": 1741,
+      "source": "Form 760 line 18"
+    }
+  }
+}

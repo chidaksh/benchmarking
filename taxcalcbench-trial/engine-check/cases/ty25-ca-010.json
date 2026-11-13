@@ -1,0 +1,41 @@
+{
+  "case": "ty25-ca-010",
+  "state": "CA",
+  "fully_represented": true,
+  "notes": [
+    "The expected return claims a California earned income credit of $183, a refundable payment outside the compared lines."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Single",
+      "source": "data file irs1040/filing_status"
+    },
+    "w2_income": {
+      "value": 13000,
+      "source": "W-2 box 1 (w2_1.pdf)"
+    }
+  },
+  "not_represented": [],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 13000,
+      "source": "Form 540 line 13"
+    },
+    "state_adjusted_gross_income": {
+      "value": 13000,
+      "source": "Form 540 line 17"
+    },
+    "state_taxable_income": {
+      "value": 7294,
+      "source": "Form 540 line 19"
+    },
+    "state_tax_before_credits": {
+      "value": 73,
+      "source": "Form 540 line 31"
+    },
+    "state_total_tax": {
+      "value": 0,
+      "source": "Form 540 line 64 is blank (line 31 of 73 less exemption credits 153)"
+    }
+  }
+}

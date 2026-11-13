@@ -1,0 +1,105 @@
+{
+  "case": "ty25-ny-003",
+  "state": "NY",
+  "fully_represented": false,
+  "notes": [
+    "Trial case with inconsistent inputs (student loan interest answered no with an amount of 98).",
+    "The engine has no input for adjustments or for Social Security benefits, so its AGI cannot equal the expected AGI."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Married/Joint",
+      "source": "data file irs1040/filing_status"
+    },
+    "num_dependents": {
+      "value": 1,
+      "source": "data file irs1040/dependent_detail, born 2023"
+    },
+    "w2_income": {
+      "value": 27859,
+      "source": "W-2 box 1"
+    },
+    "taxable_interest": {
+      "value": 1222,
+      "source": "1099-INT box 1"
+    },
+    "ordinary_dividends": {
+      "value": 1324,
+      "source": "1099-DIV box 1a"
+    },
+    "qualified_dividends": {
+      "value": 1324,
+      "source": "1099-DIV box 1b"
+    },
+    "short_term_capital_gains": {
+      "value": -1980,
+      "source": "1099-B: 6,787 - 8,767 (1099b_1)"
+    },
+    "long_term_capital_gains": {
+      "value": 1188,
+      "source": "1099-B: 10,988 - 9,800 (1099b_2)"
+    },
+    "self_employment_income": {
+      "value": 1341,
+      "source": "1099-NEC 546 + 1099-MISC box 3 845 - expenses 50, following the expected return's treatment"
+    },
+    "schedule_1_income": {
+      "value": 3267,
+      "source": "1099-G unemployment 3,222 + 45"
+    }
+  },
+  "not_represented": [
+    {
+      "item": "Taxable Social Security benefits",
+      "amount": 390,
+      "effect": "raises expected total income"
+    },
+    {
+      "item": "Educator expenses",
+      "amount": 436,
+      "effect": "lowers expected AGI"
+    },
+    {
+      "item": "Self-employed health insurance",
+      "amount": 890,
+      "effect": "lowers expected AGI"
+    },
+    {
+      "item": "Early withdrawal penalty",
+      "amount": 222,
+      "effect": "lowers expected AGI"
+    },
+    {
+      "item": "Student loan interest",
+      "amount": 98,
+      "effect": "lowers expected AGI"
+    },
+    {
+      "item": "New York additions and subtractions (IT-225, public employee contributions)",
+      "amount": null,
+      "effect": "change New York AGI"
+    }
+  ],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 32870,
+      "source": "IT-201 line 19"
+    },
+    "state_adjusted_gross_income": {
+      "value": 32580,
+      "source": "IT-201 line 33"
+    },
+    "state_taxable_income": {
+      "value": 15530,
+      "source": "IT-201 line 37"
+    },
+    "state_tax_before_credits": {
+      "value": 621,
+      "source": "IT-201 line 39"
+    },
+    "state_total_tax": {
+      "value": 621,
+      "source": "IT-201 line 44"
+    }
+  }
+}

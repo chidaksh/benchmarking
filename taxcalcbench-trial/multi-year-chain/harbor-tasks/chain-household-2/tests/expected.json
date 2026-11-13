@@ -1,0 +1,26 @@
+{
+  "2023": {
+    "schedule_d_net_short_term": -6000,
+    "schedule_d_net_long_term": -14000,
+    "form_1040_capital_gain_or_loss": -3000,
+    "adjusted_gross_income": 93200,
+    "taxable_income": 79350,
+    "tax": 12770
+  },
+  "2024": {
+    "schedule_d_net_short_term": -2000,
+    "schedule_d_net_long_term": -10000,
+    "form_1040_capital_gain_or_loss": -3000,
+    "adjusted_gross_income": 96300,
+    "taxable_income": 81700,
+    "tax": 13033
+  },
+  "2025": {
+    "schedule_d_net_short_term": 5000,
+    "schedule_d_net_long_term": 3000,
+    "form_1040_capital_gain_or_loss": 8000,
+    "adjusted_gross_income": 110400,
+    "taxable_income": 94650,
+    "tax": 15533
+  }
+}

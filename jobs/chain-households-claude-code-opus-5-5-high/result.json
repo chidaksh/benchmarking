@@ -1,0 +1,47 @@
+{
+    "id": "622b64b7-7010-461f-9086-78b5adb8d0eb",
+    "started_at": "2026-11-12T19:57:16.283664",
+    "updated_at": "2026-11-12T20:01:32.540795",
+    "finished_at": "2026-11-12T20:01:32.540795",
+    "n_total_trials": 2,
+    "stats": {
+        "n_completed_trials": 2,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-5-5__harbor-tasks": {
+                "n_trials": 2,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "by_line": 1.0,
+                        "reward": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1": [
+                            "chain-household-1__4xhWXzx",
+                            "chain-household-2__N4bVxKo"
+                        ]
+                    },
+                    "by_line": {
+                        "1.0": [
+                            "chain-household-1__4xhWXzx",
+                            "chain-household-2__N4bVxKo"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 504811,
+        "n_cache_tokens": 458159,
+        "n_output_tokens": 9799,
+        "cost_usd": 0.5208338
+    }
+}

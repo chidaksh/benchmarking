@@ -1,0 +1,18 @@
+{
+    "task": {
+        "path": "taxcalcbench-trial/multi-year-chain/harbor-tasks/chain-household-2",
+        "source": "harbor-tasks"
+    },
+    "trial_name": "chain-household-2__N4bVxKo",
+    "trials_dir": "jobs/chain-households-claude-code-opus-5-5-high",
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-opus-5-5",
+        "kwargs": {
+            "version": "2.1.322",
+            "thinking_display": "summarized",
+            "reasoning_effort": "high"
+        }
+    },
+    "job_id": "622b64b7-7010-461f-9086-78b5adb8d0eb"
+}

@@ -1,0 +1,41 @@
+{
+  "case": "ty25-ny-009",
+  "state": "NY",
+  "fully_represented": true,
+  "notes": [
+    "Relaxed rule: the data file has renter details for the real property tax credit, which the expected return does not claim on the compared lines."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Single",
+      "source": "data file irs1040/filing_status"
+    },
+    "w2_income": {
+      "value": 18001,
+      "source": "W-2 box 1 (w2_1.pdf)"
+    }
+  },
+  "not_represented": [],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 18001,
+      "source": "IT-201 line 19"
+    },
+    "state_adjusted_gross_income": {
+      "value": 18001,
+      "source": "IT-201 line 33"
+    },
+    "state_taxable_income": {
+      "value": 10001,
+      "source": "IT-201 line 37"
+    },
+    "state_tax_before_credits": {
+      "value": 409,
+      "source": "IT-201 line 39"
+    },
+    "state_total_tax": {
+      "value": 364,
+      "source": "IT-201 line 44 (line 39 less household credit 45)"
+    }
+  }
+}

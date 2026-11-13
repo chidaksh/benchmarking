@@ -1,0 +1,19 @@
+2023 schedule_d_net_short_term: correct, expected -6000, actual -6000
+2023 schedule_d_net_long_term: correct, expected -20000, actual -20000
+2023 form_1040_capital_gain_or_loss: correct, expected -3000, actual -3000
+2023 adjusted_gross_income: correct, expected 93200, actual 93200
+2023 taxable_income: correct, expected 79350, actual 79350
+2023 tax: correct, expected 12770, actual 12770
+2024 schedule_d_net_short_term: correct, expected -2000, actual -2000
+2024 schedule_d_net_long_term: correct, expected -16000, actual -16000
+2024 form_1040_capital_gain_or_loss: correct, expected -3000, actual -3000
+2024 adjusted_gross_income: correct, expected 96300, actual 96300
+2024 taxable_income: correct, expected 81700, actual 81700
+2024 tax: correct, expected 13033, actual 13033
+2025 schedule_d_net_short_term: correct, expected 2000, actual 2000
+2025 schedule_d_net_long_term: correct, expected -10000, actual -10000
+2025 form_1040_capital_gain_or_loss: correct, expected -3000, actual -3000
+2025 adjusted_gross_income: correct, expected 99400, actual 99400
+2025 taxable_income: correct, expected 83650, actual 83650
+2025 tax: correct, expected 13323, actual 13323
+Correct: 18 of 18

@@ -1,0 +1,19 @@
+{
+    "job_name": "taxcalcbench-ny-003-reasoning-claude-code-opus-5-5-high",
+    "agents": [
+        {
+            "name": "claude-code",
+            "model_name": "anthropic/claude-opus-5-5",
+            "kwargs": {
+                "version": "2.1.322",
+                "thinking_display": "summarized",
+                "reasoning_effort": "high"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "taxcalcbench-trial/harbor-tasks/ty25-ny-003"
+        }
+    ]
+}

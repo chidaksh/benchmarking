@@ -1,0 +1,75 @@
+{
+  "case": "ty25-us-006",
+  "state": null,
+  "fully_represented": true,
+  "notes": [
+    "Trial case.",
+    "The expected return takes no HSA deduction, so every amount on it maps to an engine input.",
+    "Self-employment tax is the known $1 rounding case: the expected Schedule SE rounds its two parts separately."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Married/Sep",
+      "source": "data file irs1040/filing_status"
+    },
+    "w2_income": {
+      "value": 80000,
+      "source": "W-2 box 1 (w2_1.pdf)"
+    },
+    "taxable_interest": {
+      "value": 15000,
+      "source": "1099-INT box 1"
+    },
+    "ordinary_dividends": {
+      "value": 12000,
+      "source": "1099-DIV box 1a"
+    },
+    "qualified_dividends": {
+      "value": 12000,
+      "source": "1099-DIV box 1b"
+    },
+    "self_employment_income": {
+      "value": 100000,
+      "source": "data file irs1040_schedulec gross receipts 100,000, no expenses"
+    },
+    "schedule_1_income": {
+      "value": 50000,
+      "source": "W-2G gambling winnings, Schedule 1 line 8b"
+    }
+  },
+  "not_represented": [],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 249935,
+      "source": "Form 1040 line 11a"
+    },
+    "federal_qbi_deduction": {
+      "value": 4875,
+      "source": "Form 8995-A"
+    },
+    "federal_taxable_income": {
+      "value": 229310,
+      "source": "Form 1040 line 15"
+    },
+    "federal_income_tax": {
+      "value": 48402,
+      "source": "Form 1040 line 16"
+    },
+    "federal_se_tax": {
+      "value": 14129,
+      "source": "Schedule 2, self-employment tax"
+    },
+    "federal_niit": {
+      "value": 1026,
+      "source": "Schedule 2, net investment income tax"
+    },
+    "federal_additional_medicare_tax": {
+      "value": 426,
+      "source": "Schedule 2, Additional Medicare Tax"
+    },
+    "federal_total_tax": {
+      "value": 63983,
+      "source": "Form 1040 line 24"
+    }
+  }
+}

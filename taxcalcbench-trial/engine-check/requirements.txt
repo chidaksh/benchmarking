@@ -1,0 +1,9 @@
+annotated-types==0.8.0
+polars==2.1.0
+polars-runtime-32==2.1.0
+pydantic==2.14.3
+pydantic-core==2.50.4
+python-dotenv==1.2.4
+tenforty==2025.14
+typing-extensions==4.16.0
+typing-inspection==0.4.5

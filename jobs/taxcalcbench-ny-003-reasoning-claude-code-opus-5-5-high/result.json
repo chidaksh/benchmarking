@@ -1,0 +1,57 @@
+{
+    "id": "f676b531-4722-48ce-89dc-dbab68f69009",
+    "started_at": "2026-11-11T22:39:39.288325",
+    "updated_at": "2026-11-11T22:44:12.172689",
+    "finished_at": "2026-11-11T22:44:12.172689",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-5-5__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "by_line": 0.4444444444444444,
+                        "by_line_lenient": 0.4444444444444444,
+                        "lenient": 0.0,
+                        "reward": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0": [
+                            "ty25-ny-003__zAunZi7"
+                        ]
+                    },
+                    "lenient": {
+                        "0": [
+                            "ty25-ny-003__zAunZi7"
+                        ]
+                    },
+                    "by_line": {
+                        "0.4444444444444444": [
+                            "ty25-ny-003__zAunZi7"
+                        ]
+                    },
+                    "by_line_lenient": {
+                        "0.4444444444444444": [
+                            "ty25-ny-003__zAunZi7"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 238954,
+        "n_cache_tokens": 193299,
+        "n_output_tokens": 13143,
+        "cost_usd": 0.5297828
+    }
+}

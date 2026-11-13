@@ -1,0 +1,583 @@
+2023/:
+total 5256
+drwxrwxr-x 2 root root    4096 Nov 13 03:52 .
+drwxr-xr-x 5 root root    4096 Nov 13 03:52 ..
+-rw-rw-r-- 1 root root   55322 Nov 13 03:52 1099-b_1.pdf
+-rw-rw-r-- 1 root root   55321 Nov 13 03:52 1099-b_2.pdf
+-rw-rw-r-- 1 root root   29165 Nov 13 03:52 1099-int.pdf
+-rw-rw-r-- 1 root root 4389662 Nov 13 03:52 form-1040-instructions.pdf
+-rw-rw-r-- 1 root root  160747 Nov 13 03:52 form-1040.pdf
+-rw-rw-r-- 1 root root  437537 Nov 13 03:52 schedule-d-instructions.pdf
+-rw-rw-r-- 1 root root   96288 Nov 13 03:52 schedule-d.pdf
+-rw-rw-r-- 1 root root  133677 Nov 13 03:52 w2.pdf
+
+2024/:
+total 5240
+drwxrwxr-x 2 root root    4096 Nov 13 03:52 .
+drwxr-xr-x 5 root root    4096 Nov 13 03:52 ..
+-rw-rw-r-- 1 root root   56553 Nov 13 03:52 1099-b_1.pdf
+-rw-rw-r-- 1 root root   56554 Nov 13 03:52 1099-b_2.pdf
+-rw-rw-r-- 1 root root   31606 Nov 13 03:52 1099-int.pdf
+-rw-rw-r-- 1 root root 4375877 Nov 13 03:52 form-1040-instructions.pdf
+-rw-rw-r-- 1 root root  163287 Nov 13 03:52 form-1040.pdf
+-rw-rw-r-- 1 root root  432337 Nov 13 03:52 schedule-d-instructions.pdf
+-rw-rw-r-- 1 root root   97168 Nov 13 03:52 schedule-d.pdf
+-rw-rw-r-- 1 root root  131795 Nov 13 03:52 w2.pdf
+
+2025/:
+total 5220
+drwxrwxr-x 2 root root    4096 Nov 13 03:52 .
+drwxr-xr-x 5 root root    4096 Nov 13 03:52 ..
+-rw-rw-r-- 1 root root   56618 Nov 13 03:52 1099-b_1.pdf
+-rw-rw-r-- 1 root root   56617 Nov 13 03:52 1099-b_2.pdf
+-rw-rw-r-- 1 root root   31606 Nov 13 03:52 1099-int.pdf
+-rw-rw-r-- 1 root root 4434643 Nov 13 03:52 form-1040-instructions.pdf
+-rw-rw-r-- 1 root root  220237 Nov 13 03:52 form-1040.pdf
+-rw-rw-r-- 1 root root  298718 Nov 13 03:52 schedule-d-instructions.pdf
+-rw-rw-r-- 1 root root   97968 Nov 13 03:52 schedule-d.pdf
+-rw-rw-r-- 1 root root  133452 Nov 13 03:52 w2.pdf
+/usr/bin/pdftotext
+=== 2023 w2
+                                       a Employee’s social security number                                Safe, accurate,                                   Visit the IRS website at
+                                                                               OMB No. 1545-0008          FAST! Use                                         www.irs.gov/efile
+                                       XXX-XX-4821
+ b Employer identification number (EIN)                                                         1 Wages, tips, other compensation               2 Federal income tax withheld
+ 12-3456789                                                                                    95,000.00                                    13,400.00
+ c Employer’s name, address, and ZIP code                                                       3 Social security wages                         4 Social security tax withheld
+                                                                                               95,000.00                                    5,890.00
+                                                                                                5 Medicare wages and tips                       6 Medicare tax withheld
+ Lakeshore Analytics LLC, 2200 Congress Ave, Austin, TX 78701                                  95,000.00                                    1,377.50
+                                                                                                7 Social security tips                          8 Allocated tips
+
+
+ d Control number                                                                               9                                           10 Dependent care benefits
+
+
+ e Employee’s first name and initial        Last name                                  Suff.   11 Nonqualified plans                        12a See instructions for box 12
+                                                                                                                                            C
+                                                                                                                                            o
+                                                                                                                                            d
+ Morgan T.                                  Avery                                                                                           e
+
+                                                                                               13    Statutory   Retirement   Third-party   12b
+                                                                                                     employee    plan         sick pay      C
+                                                                                                                                            o
+                                                                                                                                            d
+                                                                                                                                            e
+
+                                                                                               14 Other                                     12c
+                                                                                                                                            C
+ 418 Alder Street, Austin, TX 78704                                                                                                         o
+                                                                                                                                            d
+                                                                                                                                            e
+
+                                                                                                                                            12d
+                                                                                                                                            C
+                                                                                                                                            o
+                                                                                                                                            d
+                                                                                                                                            e
+
+ f Employee’s address and ZIP code
+15 State   Employer’s state ID number               16 State wages, tips, etc. 17 State income tax        18 Local wages, tips, etc. 19 Local income tax             20 Locality name
+
+
+
+
+Form   W-2 Wage and Tax Statement
+Copy B—To Be Filed With Employee’s FEDERAL Tax Return.
+                                                                                2023                                     Department of the Treasury—Internal Revenue Service
+
+
+
+This information is being furnished to the Internal Revenue Service.
+=== 2023 1099-int
+                                                                   CORRECTED (if checked)
+ PAYER’S name, street address, city or town, state or province, country, ZIP      Payer’s RTN (optional)                   OMB No. 1545-0112
+ or foreign postal code, and telephone no.
+                                                                                                                          Form   1099-INT                        Interest
+                                                                                  1 Interest income                         (Rev. January 2022)
+                                                                                                                                                                 Income
+ First Prairie Bank, 90 Main St, Austin, TX 78701                                                                           For calendar year
+                                                                                 $ 1,200.00                                      20 23
+                                                                                  2 Early withdrawal penalty
+                                                                                                                                                                      Copy B
+ PAYER’S TIN                            RECIPIENT’S TIN                          $
+                                                                                                                                                                For Recipient
+                                                                                  3 Interest on U.S. Savings Bonds and Treasury obligations
+12-3456790                              XXX-XX-4821
+                                                                                 $
+ RECIPIENT’S name                                                                 4 Federal income tax withheld 5 Investment expenses                       This is important tax
+                                                                                                                                                               information and is
+ Morgan T. Avery
+                                                                                 $                                   $                                     being furnished to the
+                                                                                  6 Foreign tax paid                  7 Foreign country or U.S. possession         IRS. If you are
+ Street address (including apt. no.)                                             $                                                                               required to file a
+                                                                                  8 Tax-exempt interest               9 Specified private activity bond      return, a negligence
+ 418 Alder Street                                                                                                        interest                                 penalty or other
+                                                                                                                                                                 sanction may be
+ City or town, state or province, country, and ZIP or foreign postal code        $                                   $                                         imposed on you if
+                                                                                 10 Market discount                  11 Bond premium                                this income is
+ Austin, TX 78704                                                                                                                                            taxable and the IRS
+                                                                                                                                                           determines that it has
+                                                                  FATCA filing $                                     $                                        not been reported.
+                                                                  requirement
+                                                                               12 Bond premium on Treasury obligations 13 Bond premium on tax-exempt bond
+                                                                                 $                                   $
+ Account number (see instructions)                                               14 Tax-exempt and tax credit        15 State 16 State identification no. 17 State tax withheld
+                                                                                    bond CUSIP no.
+                                                                                                                                                            $
+                                                                                                                                                            $
+Form 1099-INT (Rev. 1-2022)               (keep for your records)                www.irs.gov/Form1099INT                 Department of the Treasury - Internal Revenue Service
+=== 2023 1099-b_1
+                                                                   CORRECTED (if checked)
+PAYER’S name, street address, city or town, state or province, country, ZIP   Applicable checkbox on Form 8949            OMB No. 1545-0715       Proceeds From
+or foreign postal code, and telephone no.
+
+                                                                              A                                             2023                      Broker and
+                                                                                                                                                 Barter Exchange
+                                                                                                                            Form 1099-B
+                                                                                                                                                    Transactions
+
+Ridgeline Brokerage Services, 15 Market St, Dallas, TX 75201                  1a Description of property (Example: 100 sh. XYZ Co.)
+                                                                              200 sh. Corvane Tech Inc.
+                                                                              1b Date acquired                  1c Date sold or disposed
+                                                                              03/10/2023                       09/15/2023
+PAYER’S TIN                               RECIPIENT’S TIN                     1d Proceeds                       1e Cost or other basis                        Copy B
+                                                                              $   14,000.00                    $     20,000.00                         For Recipient
+12-3456791                                XXX-XX-4821                         1f Accrued market discount        1g Wash sale loss disallowed
+                                                                              $                                $
+RECIPIENT’S name                                                              2 Short-term gain or loss X       3 If checked, proceeds from:
+                                                                                  Long-term gain or loss            Collectibles
+Morgan T. Avery
+                                                                                  Ordinary                          QOF                            This is important tax
+Street address (including apt. no.)                                           4 Federal income tax withheld 5 If checked, noncovered                  information and is
+                                                                                                              security                                being furnished to
+                                                                              $
+418 Alder Street
+                                                                               6 Reported to IRS:                7 If checked, loss is not allowed
+                                                                                                                                                      the IRS. If you are
+                                                                                                                    based on amount in 1d               required to file a
+City or town, state or province, country, and ZIP or foreign postal code         Gross proceeds              X                                     return, a negligence
+                                                                                 Net proceeds                                                            penalty or other
+Austin, TX 78704
+                                                                               8 Profit or (loss) realized in    9 Unrealized profit or (loss) on       sanction may be
+                                                                                 2023 on closed contracts           open contracts—12/31/2022         imposed on you if
+Account number (see instructions)
+                                                                                                                                                           this income is
+                                                                              $                                 $                                   taxable and the IRS
+CUSIP number                                             FATCA filing         10 Unrealized profit or (loss) on 11 Aggregate profit or (loss)          determines that it
+                                                         requirement             open contracts—12/31/2023          on contracts                            has not been
+                                                                                                                                                                 reported.
+14 State name            15 State identification no. 16 State tax withheld    $                                $
+                                                $                             12 If checked, basis reported    13 Bartering
+                                                                                 to IRS
+                                                $                                                       X      $
+Form 1099-B                               (Keep for your records)                 www.irs.gov/Form1099B            Department of the Treasury - Internal Revenue Service
+=== 2023 1099-b_2
+                                                                   CORRECTED (if checked)
+PAYER’S name, street address, city or town, state or province, country, ZIP   Applicable checkbox on Form 8949            OMB No. 1545-0715       Proceeds From
+or foreign postal code, and telephone no.
+
+                                                                              D                                             2023                      Broker and
+                                                                                                                                                 Barter Exchange
+                                                                                                                            Form 1099-B
+                                                                                                                                                    Transactions
+
+Ridgeline Brokerage Services, 15 Market St, Dallas, TX 75201                  1a Description of property (Example: 100 sh. XYZ Co.)
+                                                                              500 sh. Meridian Index Fund
+                                                                              1b Date acquired                  1c Date sold or disposed
+                                                                              05/02/2020                       11/20/2023
+PAYER’S TIN                               RECIPIENT’S TIN                     1d Proceeds                       1e Cost or other basis                        Copy B
+                                                                              $   26,000.00                    $     40,000.00                         For Recipient
+12-3456791                                XXX-XX-4821                         1f Accrued market discount        1g Wash sale loss disallowed
+                                                                              $                                $
+RECIPIENT’S name                                                              2 Short-term gain or loss         3 If checked, proceeds from:
+                                                                                  Long-term gain or loss X          Collectibles
+Morgan T. Avery
+                                                                                  Ordinary                          QOF                            This is important tax
+Street address (including apt. no.)                                           4 Federal income tax withheld 5 If checked, noncovered                  information and is
+                                                                                                              security                                being furnished to
+                                                                              $
+418 Alder Street
+                                                                               6 Reported to IRS:                7 If checked, loss is not allowed
+                                                                                                                                                      the IRS. If you are
+                                                                                                                    based on amount in 1d               required to file a
+City or town, state or province, country, and ZIP or foreign postal code         Gross proceeds              X                                     return, a negligence
+                                                                                 Net proceeds                                                            penalty or other
+Austin, TX 78704
+                                                                               8 Profit or (loss) realized in    9 Unrealized profit or (loss) on       sanction may be
+                                                                                 2023 on closed contracts           open contracts—12/31/2022         imposed on you if
+Account number (see instructions)
+                                                                                                                                                           this income is
+                                                                              $                                 $                                   taxable and the IRS
+CUSIP number                                             FATCA filing         10 Unrealized profit or (loss) on 11 Aggregate profit or (loss)          determines that it
+                                                         requirement             open contracts—12/31/2023          on contracts                            has not been
+                                                                                                                                                                 reported.
+14 State name            15 State identification no. 16 State tax withheld    $                                $
+                                                $                             12 If checked, basis reported    13 Bartering
+                                                                                 to IRS
+                                                $                                                       X      $
+Form 1099-B                               (Keep for your records)                 www.irs.gov/Form1099B            Department of the Treasury - Internal Revenue Service
+=== 2024 w2
+                                       a Employee’s social security number                                Safe, accurate,                                   Visit the IRS website at
+                                                                               OMB No. 1545-0008          FAST! Use                                         www.irs.gov/efile.
+                                       XXX-XX-4821
+ b Employer identification number (EIN)                                                         1 Wages, tips, other compensation               2 Federal income tax withheld
+ 12-3456789                                                                                    98,000.00                                    13,800.00
+ c Employer’s name, address, and ZIP code                                                       3 Social security wages                         4 Social security tax withheld
+                                                                                               98,000.00                                    6,076.00
+                                                                                                5 Medicare wages and tips                       6 Medicare tax withheld
+ Lakeshore Analytics LLC, 2200 Congress Ave, Austin, TX 78701                                  98,000.00                                    1,421.00
+                                                                                                7 Social security tips                          8 Allocated tips
+
+
+ d Control number                                                                               9                                           10 Dependent care benefits
+
+
+ e Employee’s first name and initial        Last name                                  Suff.   11 Nonqualified plans                        12a See instructions for box 12
+                                                                                                                                            C
+                                                                                                                                            o
+                                                                                                                                            d
+ Morgan T.                                  Avery                                                                                           e
+
+                                                                                               13    Statutory   Retirement   Third-party   12b
+                                                                                                     employee    plan         sick pay      C
+                                                                                                                                            o
+                                                                                                                                            d
+                                                                                                                                            e
+
+                                                                                               14 Other                                     12c
+                                                                                                                                            C
+ 418 Alder Street, Austin, TX 78704                                                                                                         o
+                                                                                                                                            d
+                                                                                                                                            e
+
+                                                                                                                                            12d
+                                                                                                                                            C
+                                                                                                                                            o
+                                                                                                                                            d
+                                                                                                                                            e
+
+ f Employee’s address and ZIP code
+15 State   Employer’s state ID number               16 State wages, tips, etc. 17 State income tax        18 Local wages, tips, etc. 19 Local income tax             20 Locality name
+
+
+
+
+Form   W-2 Wage and Tax Statement
+Copy B—To Be Filed With Employee’s FEDERAL Tax Return.
+                                                                                2024                                     Department of the Treasury—Internal Revenue Service
+
+
+
+This information is being furnished to the Internal Revenue Service.
+=== 2024 1099-int
+                                                                   CORRECTED (if checked)
+ PAYER’S name, street address, city or town, state or province, country, ZIP      Payer’s RTN (optional)                   OMB No. 1545-0112
+ or foreign postal code, and telephone no.
+                                                                                                                          Form   1099-INT                        Interest
+                                                                                  1 Interest income                         (Rev. January 2024)
+                                                                                                                                                                 Income
+ First Prairie Bank, 90 Main St, Austin, TX 78701                                                                           For calendar year
+                                                                                 $ 1,300.00                                      2024
+                                                                                  2 Early withdrawal penalty
+                                                                                                                                                                      Copy B
+ PAYER’S TIN                            RECIPIENT’S TIN                          $
+                                                                                                                                                                For Recipient
+                                                                                  3 Interest on U.S. Savings Bonds and Treasury obligations
+ 12-3456790                             XXX-XX-4821
+                                                                                 $
+ RECIPIENT’S name                                                                 4 Federal income tax withheld 5 Investment expenses                      This is important tax
+                                                                                                                                                              information and is
+ Morgan T. Avery
+                                                                                 $                                   $                                    being furnished to the
+                                                                                  6 Foreign tax paid                  7 Foreign country or U.S. territory         IRS. If you are
+ Street address (including apt. no.)                                             $                                                                              required to file a
+                                                                                  8 Tax-exempt interest               9 Specified private activity bond     return, a negligence
+ 418 Alder Street                                                                                                        interest                                penalty or other
+                                                                                                                                                                sanction may be
+ City or town, state or province, country, and ZIP or foreign postal code        $                                   $                                        imposed on you if
+                                                                                 10 Market discount                  11 Bond premium                               this income is
+ Austin, TX 78704                                                                                                                                           taxable and the IRS
+                                                                                                                                                          determines that it has
+                                                                  FATCA filing $                                     $                                       not been reported.
+                                                                  requirement
+                                                                               12 Bond premium on Treasury obligations 13 Bond premium on tax-exempt bond
+                                                                                 $                                   $
+ Account number (see instructions)                                               14 Tax-exempt and tax credit        15 State 16 State identification no. 17 State tax withheld
+                                                                                    bond CUSIP no.
+                                                                                                                                                            $
+                                                                                                                                                            $
+Form 1099-INT (Rev. 1-2024)               (keep for your records)                www.irs.gov/Form1099INT                 Department of the Treasury - Internal Revenue Service
+=== 2024 1099-b_1
+                                                                   CORRECTED (if checked)
+PAYER’S name, street address, city or town, state or province, country, ZIP   Applicable checkbox on Form 8949            OMB No. 1545-0715       Proceeds From
+or foreign postal code, and telephone no.
+
+                                                                              A                                             2024                      Broker and
+                                                                                                                                                 Barter Exchange
+                                                                                                                            Form 1099-B
+                                                                                                                                                    Transactions
+
+Ridgeline Brokerage Services, 15 Market St, Dallas, TX 75201                  1a Description of property (Example: 100 sh. XYZ Co.)
+                                                                              200 sh. Corvane Tech Inc.
+                                                                              1b Date acquired                  1c Date sold or disposed
+                                                                              02/05/2024                       08/12/2024
+PAYER’S TIN                               RECIPIENT’S TIN                     1d Proceeds                       1e Cost or other basis                        Copy B
+                                                                              $   9,000.00                     $     8,000.00                          For Recipient
+12-3456791                                XXX-XX-4821                         1f Accrued market discount        1g Wash sale loss disallowed
+                                                                              $                                $
+RECIPIENT’S name                                                              2 Short-term gain or loss X       3 If checked, proceeds from:
+                                                                                  Long-term gain or loss            Collectibles
+Morgan T. Avery
+                                                                                  Ordinary                          QOF                            This is important tax
+Street address (including apt. no.)                                           4 Federal income tax withheld 5 If checked, noncovered                  information and is
+                                                                                                              security                                being furnished to
+                                                                              $
+418 Alder Street
+                                                                               6 Reported to IRS:                7 If checked, loss is not allowed
+                                                                                                                                                      the IRS. If you are
+                                                                                                                    based on amount in 1d               required to file a
+City or town, state or province, country, and ZIP or foreign postal code         Gross proceeds              X                                     return, a negligence
+                                                                                 Net proceeds                                                            penalty or other
+Austin, TX 78704
+                                                                               8 Profit or (loss) realized in    9 Unrealized profit or (loss) on       sanction may be
+                                                                                 2024 on closed contracts           open contracts—12/31/2023         imposed on you if
+Account number (see instructions)
+                                                                                                                                                           this income is
+                                                                              $                                 $                                   taxable and the IRS
+CUSIP number                                             FATCA filing         10 Unrealized profit or (loss) on 11 Aggregate profit or (loss)          determines that it
+                                                         requirement             open contracts—12/31/2024          on contracts                            has not been
+                                                                                                                                                                 reported.
+14 State name            15 State identification no. 16 State tax withheld    $                                $
+                                                $                             12 If checked, basis reported    13 Bartering
+                                                                                 to IRS
+                                                $                                                       X      $
+Form 1099-B                               (Keep for your records)                 www.irs.gov/Form1099B            Department of the Treasury - Internal Revenue Service
+=== 2024 1099-b_2
+                                                                   CORRECTED (if checked)
+PAYER’S name, street address, city or town, state or province, country, ZIP   Applicable checkbox on Form 8949            OMB No. 1545-0715       Proceeds From
+or foreign postal code, and telephone no.
+
+                                                                              D                                             2024                      Broker and
+                                                                                                                                                 Barter Exchange
+                                                                                                                            Form 1099-B
+                                                                                                                                                    Transactions
+
+Ridgeline Brokerage Services, 15 Market St, Dallas, TX 75201                  1a Description of property (Example: 100 sh. XYZ Co.)
+                                                                              500 sh. Meridian Index Fund
+                                                                              1b Date acquired                  1c Date sold or disposed
+                                                                              06/15/2021                       10/03/2024
+PAYER’S TIN                               RECIPIENT’S TIN                     1d Proceeds                       1e Cost or other basis                        Copy B
+                                                                              $   19,000.00                    $     15,000.00                         For Recipient
+12-3456791                                XXX-XX-4821                         1f Accrued market discount        1g Wash sale loss disallowed
+                                                                              $                                $
+RECIPIENT’S name                                                              2 Short-term gain or loss         3 If checked, proceeds from:
+                                                                                  Long-term gain or loss X          Collectibles
+Morgan T. Avery
+                                                                                  Ordinary                          QOF                            This is important tax
+Street address (including apt. no.)                                           4 Federal income tax withheld 5 If checked, noncovered                  information and is
+                                                                                                              security                                being furnished to
+                                                                              $
+418 Alder Street
+                                                                               6 Reported to IRS:                7 If checked, loss is not allowed
+                                                                                                                                                      the IRS. If you are
+                                                                                                                    based on amount in 1d               required to file a
+City or town, state or province, country, and ZIP or foreign postal code         Gross proceeds              X                                     return, a negligence
+                                                                                 Net proceeds                                                            penalty or other
+Austin, TX 78704
+                                                                               8 Profit or (loss) realized in    9 Unrealized profit or (loss) on       sanction may be
+                                                                                 2024 on closed contracts           open contracts—12/31/2023         imposed on you if
+Account number (see instructions)
+                                                                                                                                                           this income is
+                                                                              $                                 $                                   taxable and the IRS
+CUSIP number                                             FATCA filing         10 Unrealized profit or (loss) on 11 Aggregate profit or (loss)          determines that it
+                                                         requirement             open contracts—12/31/2024          on contracts                            has not been
+                                                                                                                                                                 reported.
+14 State name            15 State identification no. 16 State tax withheld    $                                $
+                                                $                             12 If checked, basis reported    13 Bartering
+                                                                                 to IRS
+                                                $                                                       X      $
+Form 1099-B                               (Keep for your records)                 www.irs.gov/Form1099B            Department of the Treasury - Internal Revenue Service
+=== 2025 w2
+                                       a Employee’s social security number                                Safe, accurate,                                   Visit the IRS website at
+                                                                               OMB No. 1545-0029          FAST! Use                                         www.irs.gov/efile.
+                                       XXX-XX-4821
+ b Employer identification number (EIN)                                                         1 Wages, tips, other compensation               2 Federal income tax withheld
+ 12-3456789                                                                                    101,000.00                                   14,300.00
+ c Employer’s name, address, and ZIP code                                                       3 Social security wages                         4 Social security tax withheld
+                                                                                               101,000.00                                   6,262.00
+                                                                                                5 Medicare wages and tips                       6 Medicare tax withheld
+ Lakeshore Analytics LLC, 2200 Congress Ave, Austin, TX 78701                                  101,000.00                                   1,464.50
+                                                                                                7 Social security tips                          8 Allocated tips
+
+
+ d Control number                                                                               9                                           10 Dependent care benefits
+
+
+ e Employee’s first name and initial        Last name                                  Suff.   11 Nonqualified plans                        12a See instructions for box 12
+                                                                                                                                            C
+                                                                                                                                            o
+                                                                                                                                            d
+ Morgan T.                                  Avery                                                                                           e
+
+                                                                                               13    Statutory   Retirement   Third-party   12b
+                                                                                                     employee    plan         sick pay      C
+                                                                                                                                            o
+                                                                                                                                            d
+                                                                                                                                            e
+
+                                                                                               14 Other                                     12c
+                                                                                                                                            C
+ 418 Alder Street, Austin, TX 78704                                                                                                         o
+                                                                                                                                            d
+                                                                                                                                            e
+
+                                                                                                                                            12d
+                                                                                                                                            C
+                                                                                                                                            o
+                                                                                                                                            d
+                                                                                                                                            e
+
+ f Employee’s address and ZIP code
+15 State   Employer’s state ID number               16 State wages, tips, etc. 17 State income tax        18 Local wages, tips, etc. 19 Local income tax             20 Locality name
+
+
+
+
+Form   W-2 Wage and Tax Statement
+Copy B—To Be Filed With Employee’s FEDERAL Tax Return.
+                                                                                2025                                     Department of the Treasury—Internal Revenue Service
+
+
+
+This information is being furnished to the Internal Revenue Service.
+=== 2025 1099-int
+                                                                   CORRECTED (if checked)
+ PAYER’S name, street address, city or town, state or province, country, ZIP      Payer’s RTN (optional)                   OMB No. 1545-0112
+ or foreign postal code, and telephone no.
+                                                                                                                          Form   1099-INT                        Interest
+                                                                                  1 Interest income                         (Rev. January 2024)
+                                                                                                                                                                 Income
+ First Prairie Bank, 90 Main St, Austin, TX 78701                                                                           For calendar year
+                                                                                 $ 1,400.00                                      2025
+                                                                                  2 Early withdrawal penalty
+                                                                                                                                                                      Copy B
+ PAYER’S TIN                            RECIPIENT’S TIN                          $
+                                                                                                                                                                For Recipient
+                                                                                  3 Interest on U.S. Savings Bonds and Treasury obligations
+ 12-3456790                             XXX-XX-4821
+                                                                                 $
+ RECIPIENT’S name                                                                 4 Federal income tax withheld 5 Investment expenses                      This is important tax
+                                                                                                                                                              information and is
+ Morgan T. Avery
+                                                                                 $                                   $                                    being furnished to the
+                                                                                  6 Foreign tax paid                  7 Foreign country or U.S. territory         IRS. If you are
+ Street address (including apt. no.)                                             $                                                                              required to file a
+                                                                                  8 Tax-exempt interest               9 Specified private activity bond     return, a negligence
+ 418 Alder Street                                                                                                        interest                                penalty or other
+                                                                                                                                                                sanction may be
+ City or town, state or province, country, and ZIP or foreign postal code        $                                   $                                        imposed on you if
+                                                                                 10 Market discount                  11 Bond premium                               this income is
+ Austin, TX 78704                                                                                                                                           taxable and the IRS
+                                                                                                                                                          determines that it has
+                                                                  FATCA filing $                                     $                                       not been reported.
+                                                                  requirement
+                                                                               12 Bond premium on Treasury obligations 13 Bond premium on tax-exempt bond
+                                                                                 $                                   $
+ Account number (see instructions)                                               14 Tax-exempt and tax credit        15 State 16 State identification no. 17 State tax withheld
+                                                                                    bond CUSIP no.
+                                                                                                                                                            $
+                                                                                                                                                            $
+Form 1099-INT (Rev. 1-2024)               (keep for your records)                www.irs.gov/Form1099INT                 Department of the Treasury - Internal Revenue Service
+=== 2025 1099-b_1
+                                                                   CORRECTED (if checked)
+PAYER’S name, street address, city or town, state or province, country, ZIP   Applicable checkbox on Form 8949            OMB No. 1545-0715       Proceeds From
+or foreign postal code, and telephone no.
+
+                                                                              A                                             2025                      Broker and
+                                                                                                                                                 Barter Exchange
+                                                                                                                            Form 1099-B
+                                                                                                                                                    Transactions
+                                                                              1a Description of property (Example: 100 sh. XYZ Co.)
+Ridgeline Brokerage Services, 15 Market St, Dallas, TX 75201
+                                                                              200 sh. Corvane Tech Inc.
+                                                                              1b Date acquired                  1c Date sold or disposed
+                                                                              01/21/2025                       07/30/2025
+PAYER’S TIN                               RECIPIENT’S TIN                     1d Proceeds                       1e Cost or other basis                        Copy B
+                                                                              $   25,000.00                    $     20,000.00                         For Recipient
+12-3456791                                XXX-XX-4821                         1f Accrued market discount        1g Wash sale loss disallowed
+                                                                              $                                $
+RECIPIENT’S name                                                              2 Short-term gain or loss X       3 If checked, proceeds from:
+                                                                                  Long-term gain or loss            Collectibles
+Morgan T. Avery
+                                                                                  Ordinary                          QOF                            This is important tax
+Street address (including apt. no.)                                           4 Federal income tax withheld 5 If checked, noncovered                  information and is
+                                                                                                              security                                being furnished to
+                                                                              $
+418 Alder Street
+                                                                               6 Reported to IRS:                7 If checked, loss is not allowed
+                                                                                                                                                      the IRS. If you are
+                                                                                                                    based on amount in 1d               required to file a
+City or town, state or province, country, and ZIP or foreign postal code         Gross proceeds              X                                     return, a negligence
+                                                                                 Net proceeds                                                            penalty or other
+Austin, TX 78704
+                                                                               8 Profit or (loss) realized in    9 Unrealized profit or (loss) on       sanction may be
+                                                                                 2025 on closed contracts           open contracts—12/31/2024         imposed on you if
+Account number (see instructions)
+                                                                                                                                                           this income is
+                                                                              $                                 $                                   taxable and the IRS
+CUSIP number                                             FATCA filing         10 Unrealized profit or (loss) on 11 Aggregate profit or (loss)          determines that it
+                                                         requirement             open contracts—12/31/2025          on contracts                            has not been
+                                                                                                                                                                 reported.
+14 State name            15 State identification no. 16 State tax withheld    $                                $
+                                                $                             12 If checked, basis reported    13 Bartering
+                                                                                 to IRS
+                                                $                                                       X      $
+Form 1099-B                               (Keep for your records)                 www.irs.gov/Form1099B            Department of the Treasury - Internal Revenue Service
+=== 2025 1099-b_2
+                                                                   CORRECTED (if checked)
+PAYER’S name, street address, city or town, state or province, country, ZIP   Applicable checkbox on Form 8949            OMB No. 1545-0715       Proceeds From
+or foreign postal code, and telephone no.
+
+                                                                              D                                             2025                      Broker and
+                                                                                                                                                 Barter Exchange
+                                                                                                                            Form 1099-B
+                                                                                                                                                    Transactions
+                                                                              1a Description of property (Example: 100 sh. XYZ Co.)
+Ridgeline Brokerage Services, 15 Market St, Dallas, TX 75201
+                                                                              500 sh. Meridian Index Fund
+                                                                              1b Date acquired                  1c Date sold or disposed
+                                                                              04/11/2022                       09/18/2025
+PAYER’S TIN                               RECIPIENT’S TIN                     1d Proceeds                       1e Cost or other basis                        Copy B
+                                                                              $   42,000.00                    $     30,000.00                         For Recipient
+12-3456791                                XXX-XX-4821                         1f Accrued market discount        1g Wash sale loss disallowed
+                                                                              $                                $
+RECIPIENT’S name                                                              2 Short-term gain or loss         3 If checked, proceeds from:
+                                                                                  Long-term gain or loss X          Collectibles
+Morgan T. Avery
+                                                                                  Ordinary                          QOF                            This is important tax
+Street address (including apt. no.)                                           4 Federal income tax withheld 5 If checked, noncovered                  information and is
+                                                                                                              security                                being furnished to
+                                                                              $
+418 Alder Street
+                                                                               6 Reported to IRS:                7 If checked, loss is not allowed
+                                                                                                                                                      the IRS. If you are
+                                                                                                                    based on amount in 1d               required to file a
+City or town, state or province, country, and ZIP or foreign postal code         Gross proceeds              X                                     return, a negligence
+                                                                                 Net proceeds                                                            penalty or other
+Austin, TX 78704
+                                                                               8 Profit or (loss) realized in    9 Unrealized profit or (loss) on       sanction may be
+                                                                                 2025 on closed contracts           open contracts—12/31/2024         imposed on you if
+Account number (see instructions)
+                                                                                                                                                           this income is
+                                                                              $                                 $                                   taxable and the IRS
+CUSIP number                                             FATCA filing         10 Unrealized profit or (loss) on 11 Aggregate profit or (loss)          determines that it
+                                                         requirement             open contracts—12/31/2025          on contracts                            has not been
+                                                                                                                                                                 reported.
+14 State name            15 State identification no. 16 State tax withheld    $                                $
+                                                $                             12 If checked, basis reported    13 Bartering
+                                                                                 to IRS
+                                                $                                                       X      $
+Form 1099-B                               (Keep for your records)                 www.irs.gov/Form1099B            Department of the Treasury - Internal Revenue Service
+

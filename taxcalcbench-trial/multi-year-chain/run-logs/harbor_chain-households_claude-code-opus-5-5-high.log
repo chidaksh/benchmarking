@@ -1,0 +1,22 @@
+  2/2 By_Line: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:04:16 0:00:00
+harbor-tasks • claude-code • claude-opus-5-5
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┓
+┃ Trials ┃ Exceptions ┃ By_Line ┃ Reward ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━┩
+│      2 │          0 │   1.000 │  1.000 │
+└────────┴────────────┴─────────┴────────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1      │     2 │
+│ 1.0    │     2 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 4m 16s
+Results written to jobs/chain-households-claude-code-opus-5-5-high/result.json
+Inspect results by running `harbor view jobs`
+Share results by running `harbor upload 
+jobs/chain-households-claude-code-opus-5-5-high`
+

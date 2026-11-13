@@ -1,0 +1,41 @@
+{
+  "case": "ty25-va-009",
+  "state": "VA",
+  "fully_represented": true,
+  "notes": [
+    "The expected return leaves the tax lines 16 and 18 blank although taxable income is 1,320."
+  ],
+  "inputs": {
+    "filing_status": {
+      "value": "Single",
+      "source": "data file irs1040/filing_status"
+    },
+    "w2_income": {
+      "value": 11000,
+      "source": "W-2 box 1 (w2_1.pdf)"
+    }
+  },
+  "not_represented": [],
+  "expected": {
+    "federal_adjusted_gross_income": {
+      "value": 11000,
+      "source": "Form 760 line 1"
+    },
+    "state_adjusted_gross_income": {
+      "value": 11000,
+      "source": "Form 760 line 9"
+    },
+    "state_taxable_income": {
+      "value": 1320,
+      "source": "Form 760 line 15"
+    },
+    "state_tax_before_credits": {
+      "value": 0,
+      "source": "Form 760 line 16 is blank"
+    },
+    "state_total_tax": {
+      "value": 0,
+      "source": "Form 760 line 18 is blank"
+    }
+  }
+}

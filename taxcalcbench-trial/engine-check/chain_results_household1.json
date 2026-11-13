@@ -1,0 +1,143 @@
+{
+  "correct": [
+    {
+      "year": 2023,
+      "carry_in_short": 0,
+      "carry_in_long": 0,
+      "net_short": -6000,
+      "net_long": -20000,
+      "engine_agi": 93200.0,
+      "engine_taxable_income": 79350.0,
+      "engine_income_tax": 12770.0,
+      "engine_total_tax": 12770.0,
+      "carry_out_short": 3000,
+      "carry_out_long": 20000,
+      "check_agi": 93200,
+      "check_taxable_income": 79350,
+      "check_tax": 12770,
+      "loss_limited_to_3000": true,
+      "max_abs_difference": 0.0,
+      "agrees": true
+    },
+    {
+      "year": 2024,
+      "carry_in_short": 3000,
+      "carry_in_long": 20000,
+      "net_short": -2000,
+      "net_long": -16000,
+      "engine_agi": 96300.0,
+      "engine_taxable_income": 81700.0,
+      "engine_income_tax": 13033.0,
+      "engine_total_tax": 13033.0,
+      "carry_out_short": 0,
+      "carry_out_long": 15000,
+      "check_agi": 96300,
+      "check_taxable_income": 81700,
+      "check_tax": 13033,
+      "loss_limited_to_3000": true,
+      "max_abs_difference": 0.0,
+      "agrees": true
+    },
+    {
+      "year": 2025,
+      "carry_in_short": 0,
+      "carry_in_long": 15000,
+      "net_short": 2000,
+      "net_long": -10000,
+      "engine_agi": 99400.0,
+      "engine_taxable_income": 83650.0,
+      "engine_income_tax": 13323.0,
+      "engine_total_tax": 13323.0,
+      "carry_out_short": 0,
+      "carry_out_long": 5000,
+      "check_agi": 99400,
+      "check_taxable_income": 83650,
+      "check_tax": 13323,
+      "loss_limited_to_3000": true,
+      "max_abs_difference": 0.0,
+      "agrees": true
+    }
+  ],
+  "whole_loss_deducted_year1": [
+    {
+      "year": 2023,
+      "carry_in_short": 0,
+      "carry_in_long": 0,
+      "net_short": -6000,
+      "net_long": -20000,
+      "engine_agi": 93200.0,
+      "engine_taxable_income": 79350.0,
+      "engine_income_tax": 12770.0,
+      "engine_total_tax": 12770.0,
+      "carry_out_short": 0,
+      "carry_out_long": 0
+    },
+    {
+      "year": 2024,
+      "carry_in_short": 0,
+      "carry_in_long": 0,
+      "net_short": 1000,
+      "net_long": 4000,
+      "engine_agi": 104300.0,
+      "engine_taxable_income": 89700.0,
+      "engine_income_tax": 14513.0,
+      "engine_total_tax": 14513.0,
+      "carry_out_short": 0,
+      "carry_out_long": 0
+    },
+    {
+      "year": 2025,
+      "carry_in_short": 0,
+      "carry_in_long": 0,
+      "net_short": 2000,
+      "net_long": 5000,
+      "engine_agi": 109400.0,
+      "engine_taxable_income": 93650.0,
+      "engine_income_tax": 15173.0,
+      "engine_total_tax": 15173.0,
+      "carry_out_short": 0,
+      "carry_out_long": 0
+    }
+  ],
+  "carryover_not_reduced": [
+    {
+      "year": 2023,
+      "carry_in_short": 0,
+      "carry_in_long": 0,
+      "net_short": -6000,
+      "net_long": -20000,
+      "engine_agi": 93200.0,
+      "engine_taxable_income": 79350.0,
+      "engine_income_tax": 12770.0,
+      "engine_total_tax": 12770.0,
+      "carry_out_short": 6000,
+      "carry_out_long": 20000
+    },
+    {
+      "year": 2024,
+      "carry_in_short": 6000,
+      "carry_in_long": 20000,
+      "net_short": -5000,
+      "net_long": -16000,
+      "engine_agi": 96300.0,
+      "engine_taxable_income": 81700.0,
+      "engine_income_tax": 13033.0,
+      "engine_total_tax": 13033.0,
+      "carry_out_short": 2000,
+      "carry_out_long": 16000
+    },
+    {
+      "year": 2025,
+      "carry_in_short": 2000,
+      "carry_in_long": 16000,
+      "net_short": 0,
+      "net_long": -11000,
+      "engine_agi": 99400.0,
+      "engine_taxable_income": 83650.0,
+      "engine_income_tax": 13323.0,
+      "engine_total_tax": 13323.0,
+      "carry_out_short": 0,
+      "carry_out_long": 8000
+    }
+  ]
+}

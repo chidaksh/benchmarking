@@ -1,0 +1,17 @@
+{
+    "task": {
+        "path": "taxcalcbench-trial/harbor-tasks/ty25-ny-003"
+    },
+    "trial_name": "ty25-ny-003__zAunZi7",
+    "trials_dir": "jobs/taxcalcbench-ny-003-reasoning-claude-code-opus-5-5-high",
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-opus-5-5",
+        "kwargs": {
+            "version": "2.1.322",
+            "thinking_display": "summarized",
+            "reasoning_effort": "high"
+        }
+    },
+    "job_id": "f676b531-4722-48ce-89dc-dbab68f69009"
+}
