@@ -1,0 +1,22 @@
+{
+ "record": "read",
+ "actions": 14,
+ "finished": true,
+ "actions_before_the_try": 10,
+ "actions_after_the_try": 4,
+ "passes": 1,
+ "verdict": {
+  "delivered_enough": true,
+  "basket_blocks_in_place": true,
+  "parked": true,
+  "finished": true,
+  "within_budget": true,
+  "overall": 1,
+  "notes": "tries ['delivered'], parts delivered and still in the basket [0], basket blocks inside [True, True, True]"
+ },
+ "replayed_actions": 15,
+ "replay_largest_difference": 0.0,
+ "replay_tries": [
+  "delivered"
+ ]
+}

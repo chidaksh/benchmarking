@@ -1,0 +1,22 @@
+{
+ "record": "read",
+ "actions": 0,
+ "finished": false,
+ "actions_before_the_try": 0,
+ "actions_after_the_try": 0,
+ "passes": 1,
+ "verdict": {
+  "delivered_enough": false,
+  "basket_blocks_in_place": true,
+  "parked": false,
+  "finished": false,
+  "within_budget": true,
+  "overall": 0,
+  "notes": "tries ['lost'], parts delivered and still in the basket [], basket blocks inside [True, True, True]"
+ },
+ "replayed_actions": 1,
+ "replay_largest_difference": 0.0,
+ "replay_tries": [
+  "lost"
+ ]
+}

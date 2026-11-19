@@ -1,0 +1,13 @@
+survey: strip centre near [ 0.438 -0.003], running along [0.002 1.   ]
+survey: touches at heights 0.0860 and 0.0802
+survey: lower end 0.285 along the strip, catch point at [0.438 0.161], height there 0.0759, slope 0.045
+survey: the strip's centre is -7.3 mm to the side of where the first look put it
+survey: a box with other colours inside near [0.236 0.346]; most open floor at 0.49, 0.54 of its outline, room 0.15 of its width
+survey done, 0 of 10 actions left
+plan: watch pose is park plus [ 0.375  0.25   0.    -0.5   -0.5    0.25   0.   ], hand due at the grasp pose at 2.19 s
+try: 6 sightings so far, part's radius measured as 10.8 mm, fingers to close at 2.45 s
+try over: sightings [(1.0, -0.327), (1.2, -0.256), (1.4, -0.19), (1.6, -0.125), (1.8, -0.051), (2.0, 0.012), (2.4, 0.15), (2.6, 0.173)]; finger gap now 0.040
+the fingers are closed on something
+deliver: basket centre [0.253 0.34 ], 0.125 across, rim at 0.100; letting go over [0.252 0.336]
+parked: joints [-0.0, 0.0, 0.0, 1.571, -0.0, 1.571, -0.0], 26 of 30 actions left
+finish: {'joints': [-0.0, 0.0, 0.0, 1.571, -0.0, 1.571, -0.0], 'finger_gap': 0.06, 'try': 'over', 'actions_left': 26, 'finished': True}

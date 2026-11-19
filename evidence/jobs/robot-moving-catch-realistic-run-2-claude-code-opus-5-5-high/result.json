@@ -1,0 +1,69 @@
+{
+    "id": "824360e2-dba8-48cf-8ef2-17eaa5809b4b",
+    "started_at": "2026-11-18T10:08:49.913626",
+    "updated_at": "2026-11-18T11:07:51.355388",
+    "finished_at": "2026-11-18T11:07:51.355388",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-5-5__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "artifact_quality": 1.0,
+                        "constraint_satisfaction": 1.0,
+                        "functional_correctness": 0.0,
+                        "overall": 0.0,
+                        "reward": 0.0,
+                        "robustness": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "functional_correctness": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__CTYCJxh"
+                        ]
+                    },
+                    "robustness": {
+                        "1.0": [
+                            "robot-moving-catch-realistic__CTYCJxh"
+                        ]
+                    },
+                    "constraint_satisfaction": {
+                        "1.0": [
+                            "robot-moving-catch-realistic__CTYCJxh"
+                        ]
+                    },
+                    "artifact_quality": {
+                        "1.0": [
+                            "robot-moving-catch-realistic__CTYCJxh"
+                        ]
+                    },
+                    "overall": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__CTYCJxh"
+                        ]
+                    },
+                    "reward": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__CTYCJxh"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 15160303,
+        "n_cache_tokens": 14920249,
+        "n_output_tokens": 168360,
+        "cost_usd": 7.551321799999998
+    }
+}

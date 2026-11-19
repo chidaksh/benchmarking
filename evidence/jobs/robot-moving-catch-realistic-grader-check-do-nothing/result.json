@@ -1,0 +1,69 @@
+{
+    "id": "98b816f1-3101-4b80-a974-09c5393c94b1",
+    "started_at": "2026-11-18T16:46:51.737395",
+    "updated_at": "2026-11-18T16:47:50.408228",
+    "finished_at": "2026-11-18T16:47:50.408228",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "nop__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "artifact_quality": 1.0,
+                        "constraint_satisfaction": 0.0,
+                        "functional_correctness": 0.0,
+                        "overall": 0.0,
+                        "reward": 0.0,
+                        "robustness": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "functional_correctness": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__XYmSD3B"
+                        ]
+                    },
+                    "robustness": {
+                        "1.0": [
+                            "robot-moving-catch-realistic__XYmSD3B"
+                        ]
+                    },
+                    "constraint_satisfaction": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__XYmSD3B"
+                        ]
+                    },
+                    "artifact_quality": {
+                        "1.0": [
+                            "robot-moving-catch-realistic__XYmSD3B"
+                        ]
+                    },
+                    "overall": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__XYmSD3B"
+                        ]
+                    },
+                    "reward": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__XYmSD3B"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

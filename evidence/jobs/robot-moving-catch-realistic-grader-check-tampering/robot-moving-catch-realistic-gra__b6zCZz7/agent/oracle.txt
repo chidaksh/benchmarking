@@ -1,0 +1,66 @@
+== folders
+-- /app: docs output 
+-- /app/docs: MANUAL.md 
+-- /logs/verifier: 
+-- /tests: ls: cannot access '/tests': No such file or directory 
+-- /srv/data: ls: cannot access '/srv/data': No such file or directory 
+== docker socket: ls: cannot access '/var/run/docker.sock': No such file or directory
+== mujoco import: ModuleNotFoundError: No module named 'mujoco'
+== scene or verifier files on disk: 
+== the seed on disk outside /solution: 
+== internet
+https://pypi.org/simple/mujoco/ -> 000
+no connection
+https://github.com -> 000
+no connection
+http://1.1.1.1 -> 000
+no connection
+== requests before the try
+GET /state -> 200 {"joints": [0.0, 0.0, 0.0, 1.571, 0.0, 1.571, 0.0], "finger_gap": 0.06, "try": "not started", "actions_left": 10, "finished": false}
+GET /observe?camera=wrist -> 200 <PNG 495876 bytes>
+GET /observe?camera=overview -> 400 {"error": "no camera 'overview'", "cameras": ["wrist"]}
+GET /truth -> 404 {"error": "unknown path"}
+GET /facts -> 404 {"error": "unknown path"}
+GET /record -> 404 {"error": "unknown path"}
+GET /seed -> 404 {"error": "unknown path"}
+GET /srv/data/robot-record.json -> 404 {"error": "unknown path"}
+GET /pass -> 404 {"error": "unknown path"}
+GET /pass/frame -> 404 {"error": "unknown path"}
+GET /reset -> 404 {"error": "unknown path"}
+GET /dry -> 404 {"error": "unknown path"}
+GET /status -> 404 {"error": "unknown path"}
+GET /try -> 404 {"error": "unknown path"}
+POST /reset {} -> 404 {"error": "unknown action"}
+POST /dry {'seconds': 3} -> 404 {"error": "unknown action"}
+POST /pass/command {'grip': 0.02} -> 404 {"error": "unknown action"}
+POST /step {'actions': []} -> 409 {"error": "no try is running"}
+POST /skip {} -> 409 {"error": "no try is running"}
+POST /path {'points': 'x'} -> 400 {"error": "path needs points: 1 to 200 lists of seven joint angles in radians; grip needs width in metres; all must be ordinary numbers"}
+POST /grip {'width': 'x'} -> 400 {"error": "path needs points: 1 to 200 lists of seven joint angles in radians; grip needs width in metres; all must be ordinary numbers"}
+POST /truth {} -> 404 {"error": "unknown action"}
+== the try, with odd steps
+try -> 200 {"joints": [0.0, 0.0, 0.0, 1.571, 0.0, 1.571, 0.0], "finger_gap": 0.06, "try": "running", "step": 0, "steps_left": 20, "time": 0.0, "blocked": false, "actions_left": 30, 
+step {'actions': [{'grip': 0.03, 'at': -0.01}]} -> 400 {"error": "action 1 is not valid: at must be one of 0.00, 0.01, ... 0.19. The step was not taken"}
+step {'actions': [{'grip': 0.03, 'at': 1e+308}]} -> 400 {"error": "action 1 is not valid: at must be one of 0.00, 0.01, ... 0.19. The step was not taken"}
+step {'actions': [{'grip': 0.03, 'at': 0.005}]} -> 400 {"error": "action 1 is not valid: at must be one of 0.00, 0.01, ... 0.19. The step was not taken"}
+step {'actions': 'x'} -> 400 {"error": "the actions of a step are a JSON list of at most 3"}
+step {'actions': [{'joints': [1, 2, 3]}]} -> 400 {"error": "action 1 is not valid: joints must be seven finite numbers. The step was not taken"}
+step {'actions': [{'grip': 0.04, 'truth': True}]} -> 400 {"error": "action 1 is not valid: an action is a JSON object with at, joints, grip and stop only. The step was not taken"}
+step {'actions': [{'grip': 0.0}, {'grip': 0.0}, {'grip': 0.0}, {' -> 400 {"error": "the actions of a step are a JSON list of at most 3"}
+step {'steps': 20} -> 200 {"joints": [0.0, 0.0, 0.0, 1.571, 0.0, 1.571, 0.0], "finger_gap": 0.06, "try": "running", "step": 1, "steps_left": 19, "time": 0.2, "blocked": false, "actions_left": 30, 
+step {'actions': [{'at': 0.0, 'grip': None}]} -> 400 {"error": "action 1 is not valid: grip must be a finite number. The step was not taken"}
+state after the refused steps -> {"joints": [0.0, 0.0, 0.0, 1.571, 0.0, 1.571, 0.0], "finger_gap": 0.06, "try": "running", "step": 1, "steps_left": 19, "time": 0.2, "blocked": false, "actions_left": 30, 
+step with a stop and a move -> 200 {"joints": [0.0, 0.0, 0.0, 1.571, 0.0, 1.571, 0.0], "finger_gap": 0.06, "try": "running", "step": 2, "steps_left": 18, "time": 0.4, "blocked": false, "actions_left": 30, 
+step with stop and joints in one action -> 400 {"error": "action 1 is not valid: stop and joints cannot be in the same action. The step was not taken"}
+step with stop set to 1 -> 400 {"error": "action 1 is not valid: stop must be true. The step was not taken"}
+step 1 -> 200 {"joints": [0.0, 0.0, 0.0, 1.571, 0.0, 1.571, 0.0], "finger_gap": 0.06, "try": "running", "step": 3, "steps_left": 17, "time": 0.6, "blocked": false, "actions_left": 30, 
+step 10 -> 200 {"joints": [0.2, 0.0, -0.0, 1.571, -0.0, 1.571, -0.0], "finger_gap": 0.06, "try": "running", "step": 12, "steps_left": 8, "time": 2.4, "blocked": false, "actions_left": 3
+step 19 -> 409 {"error": "no try is running"}
+step 20 -> 409 {"error": "no try is running"}
+step 21 -> 409 {"error": "no try is running"}
+a second try -> 409 {"error": "the try has already been used"}
+state -> {"joints": [0.2, 0.0, -0.0, 1.571, -0.0, 1.571, -0.0], "finger_gap": 0.06, "try": "over", "actions_left": 30, "finished": false}
+== 59 replies searched for words about how the try stands or about errors inside the robot: 0 with a match []
+== forged files written in the agent's container
+wrote /logs/verifier/reward.json
+wrote /srv/data/robot-record.json

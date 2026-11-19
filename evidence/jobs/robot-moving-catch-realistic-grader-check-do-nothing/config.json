@@ -1,0 +1,14 @@
+{
+    "job_name": "robot-moving-catch-realistic-grader-check-do-nothing",
+    "n_concurrent_trials": 1,
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "/home/chidaksh/Documents/interviews/collinear/benchmarking-live-robot-task/live-robot-task/catch-realistic/.build/staging/robot-moving-catch-realistic"
+        }
+    ]
+}

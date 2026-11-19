@@ -1,0 +1,8 @@
+1 pass ok
+2 path ok
+3 path ok
+4 path ok
+5 grip ok
+6 path ok
+7 path ok
+{"joints": [0.0, 0.0, -0.0, 1.571, -0.0, 1.571, 0.0], "finger_gap": 0.06, "try": "over", "actions_left": 24, "finished": true}

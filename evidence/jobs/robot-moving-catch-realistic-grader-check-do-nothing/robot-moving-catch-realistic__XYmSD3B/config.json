@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "/home/chidaksh/Documents/interviews/collinear/benchmarking-live-robot-task/live-robot-task/catch-realistic/.build/staging/robot-moving-catch-realistic"
+    },
+    "trial_name": "robot-moving-catch-realistic__XYmSD3B",
+    "trials_dir": "jobs/robot-moving-catch-realistic-grader-check-do-nothing",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "98b816f1-3101-4b80-a974-09c5393c94b1"
+}

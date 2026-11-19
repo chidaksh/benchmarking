@@ -1,0 +1,26 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts/logs/artifacts",
+    "type": "directory",
+    "status": "ok",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/app/output",
+    "destination": "artifacts/app/output",
+    "type": "directory",
+    "status": "ok",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/srv/data/robot-record.json",
+    "destination": "artifacts/srv/data/robot-record.json",
+    "type": "file",
+    "status": "ok",
+    "service": "robot",
+    "exclude": []
+  }
+]
