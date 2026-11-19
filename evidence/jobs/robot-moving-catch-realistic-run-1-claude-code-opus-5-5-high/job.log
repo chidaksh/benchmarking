@@ -1,0 +1,18 @@
+Inference credentials: 1 mappings across 1 trials
+claude-code / anthropic (1 trials): ANTHROPIC_API_KEY → ANTHROPIC_API_KEY; base URL=https://api.anthropic.com (best guess; not injected); API format=anthropic_messages (agent_default)
+Skipping image OS validation for hb__3cba0f9330d8a8ae5446815942c01bbe: docker inspect returned 1
+Claude Code is already available at the requested version
+Allowlisting inference host 'api.anthropic.com' for agent 'claude-code' from a best guess; the agent/SDK still selects its default endpoint.
+Agent 'claude-code': automatically applied disable_web_search=True because the rollout network policy is restricted.
+Running command: mkdir -p $CLAUDE_CONFIG_DIR/debug $CLAUDE_CONFIG_DIR/projects/-app $CLAUDE_CONFIG_DIR/shell-snapshots $CLAUDE_CONFIG_DIR/statsig $CLAUDE_CONFIG_DIR/todos $CLAUDE_CONFIG_DIR/skills && if [ -d ~/.claude/skills ]; then cp -r ~/.claude/skills/. $CLAUDE_CONFIG_DIR/skills/ 2>/dev/null || true; fi
+Command outputs captured
+Running command: export PATH="$HOME/.local/bin:$PATH"; claude_code_instruction_4c078cd2032f4965b91bb5e306d401d3="$CLAUDE_CODE_INSTRUCTION_4C078CD2032F4965B91BB5E306D401D3"; unset CLAUDE_CODE_INSTRUCTION_4C078CD2032F4965B91BB5E306D401D3; printf "%s" "$claude_code_instruction_4c078cd2032f4965b91bb5e306d401d3" | claude --verbose --output-format=stream-json --effort high --thinking-display summarized --disallowedTools WebSearch,WebFetch --permission-mode=bypassPermissions --print 2>&1 | tee /logs/agent/claude-code.txt
+Command failed
+Classified failed command as UnknownApiError (pattern: 'API Error')
+Wrote Claude Code trajectory to jobs/robot-moving-catch-realistic-run-1-claude-code-opus-5-5-high/robot-moving-catch-realistic__uZMxGbg/agent/trajectory.json
+Collecting main service artifacts
+Stopping main service before sidecar evidence collection
+Main service stopped
+Collecting sidecar artifacts from services: ['robot']
+Skipping image OS validation for hb__17440e7482bdc405771098ead0d2adb9: docker inspect returned 1
+Not retrying trial because the maximum number of retries has been reached

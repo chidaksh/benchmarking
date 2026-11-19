@@ -1,0 +1,73 @@
+{
+    "id": "789ca738-def1-4447-82e4-e018af668874",
+    "started_at": "2026-11-18T00:33:54.854397",
+    "updated_at": "2026-11-18T02:41:06.074754",
+    "finished_at": "2026-11-18T02:41:06.074754",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-opus-5-5__adhoc": {
+                "n_trials": 1,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "artifact_quality": 1.0,
+                        "constraint_satisfaction": 0.0,
+                        "functional_correctness": 0.0,
+                        "overall": 0.0,
+                        "reward": 0.0,
+                        "robustness": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "functional_correctness": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__uZMxGbg"
+                        ]
+                    },
+                    "robustness": {
+                        "1.0": [
+                            "robot-moving-catch-realistic__uZMxGbg"
+                        ]
+                    },
+                    "constraint_satisfaction": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__uZMxGbg"
+                        ]
+                    },
+                    "artifact_quality": {
+                        "1.0": [
+                            "robot-moving-catch-realistic__uZMxGbg"
+                        ]
+                    },
+                    "overall": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__uZMxGbg"
+                        ]
+                    },
+                    "reward": {
+                        "0.0": [
+                            "robot-moving-catch-realistic__uZMxGbg"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "UnknownApiError": [
+                        "robot-moving-catch-realistic__uZMxGbg"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 15633824,
+        "n_cache_tokens": 15381996,
+        "n_output_tokens": 188088,
+        "cost_usd": 8.0970672
+    }
+}

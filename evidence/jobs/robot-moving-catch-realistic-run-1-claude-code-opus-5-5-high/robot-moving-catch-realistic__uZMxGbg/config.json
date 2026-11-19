@@ -1,0 +1,18 @@
+{
+    "task": {
+        "path": "live-robot-task/harbor-tasks/robot-moving-catch-realistic"
+    },
+    "trial_name": "robot-moving-catch-realistic__uZMxGbg",
+    "trials_dir": "jobs/robot-moving-catch-realistic-run-1-claude-code-opus-5-5-high",
+    "agent_setup_timeout_multiplier": 5.0,
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-opus-5-5",
+        "kwargs": {
+            "version": "2.1.327",
+            "thinking_display": "summarized",
+            "reasoning_effort": "high"
+        }
+    },
+    "job_id": "789ca738-def1-4447-82e4-e018af668874"
+}
