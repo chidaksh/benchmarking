@@ -1,0 +1,23 @@
+{"functional_correctness": 0.0, "robustness": 1.0, "constraint_satisfaction": 1.0, "artifact_quality": 1.0, "overall": 0.0, "reward": 0.0}
+{
+ "record": "read",
+ "actions": 17,
+ "finished": true,
+ "actions_before_the_try": 9,
+ "actions_after_the_try": 8,
+ "passes": 1,
+ "verdict": {
+  "delivered_enough": false,
+  "basket_blocks_in_place": true,
+  "parked": true,
+  "finished": true,
+  "within_budget": true,
+  "overall": 0,
+  "notes": "tries ['foul'], parts delivered and still in the basket [], basket blocks inside [True, True, True]"
+ },
+ "replayed_actions": 18,
+ "replay_largest_difference": 0.0,
+ "replay_tries": [
+  "foul"
+ ]
+}
