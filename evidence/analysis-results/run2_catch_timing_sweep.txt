@@ -1,0 +1,33 @@
+# Printed by catch_timing_sweep.py on model run 2's record. Each line replays the run with the grip, and the lift after it, shifted by that much.
+
+as recorded, every action: foul
+fingers close  -30 ms from the recorded time, at 2.29 s: lost
+fingers close  -20 ms from the recorded time, at 2.30 s: lost
+fingers close  -10 ms from the recorded time, at 2.31 s: lost
+fingers close   +0 ms from the recorded time, at 2.32 s: foul
+fingers close  +10 ms from the recorded time, at 2.33 s: foul
+fingers close  +20 ms from the recorded time, at 2.34 s: foul
+fingers close  +30 ms from the recorded time, at 2.35 s: foul
+fingers close  +40 ms from the recorded time, at 2.36 s: foul
+fingers close  +50 ms from the recorded time, at 2.37 s: foul
+fingers close  +60 ms from the recorded time, at 2.38 s: foul
+fingers close  +70 ms from the recorded time, at 2.39 s: foul
+fingers close  +80 ms from the recorded time, at 2.40 s: caught
+fingers close  +90 ms from the recorded time, at 2.41 s: caught
+fingers close +100 ms from the recorded time, at 2.42 s: caught
+fingers close +110 ms from the recorded time, at 2.43 s: caught
+fingers close +120 ms from the recorded time, at 2.44 s: caught
+fingers close +130 ms from the recorded time, at 2.45 s: caught
+fingers close +140 ms from the recorded time, at 2.46 s: caught
+fingers close +150 ms from the recorded time, at 2.47 s: caught
+fingers close +160 ms from the recorded time, at 2.48 s: caught
+fingers close +170 ms from the recorded time, at 2.49 s: caught
+fingers close +180 ms from the recorded time, at 2.50 s: caught
+fingers close +190 ms from the recorded time, at 2.51 s: lost
+fingers close +200 ms from the recorded time, at 2.52 s: lost
+fingers close +210 ms from the recorded time, at 2.53 s: lost
+fingers close +220 ms from the recorded time, at 2.54 s: lost
+fingers close +230 ms from the recorded time, at 2.55 s: lost
+fingers close +240 ms from the recorded time, at 2.56 s: lost
+fingers close +250 ms from the recorded time, at 2.57 s: lost
+caught for shifts of +80 to +180 ms

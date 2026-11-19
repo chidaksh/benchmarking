@@ -1,0 +1,22 @@
+# Printed by run_observation_oracle.sh, once per draw of the sensing errors. Each line: the oracle's exit code, its action counts, how the try stands, and the task grader's reward and replay difference.
+
+draw 0: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 1: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 2: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 3: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 4: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 5: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 6: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 7: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 8: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 9: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 10: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 11: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 12: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 13: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 14: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 15: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 16: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 17: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 18: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0
+draw 19: solver exit 0 | actions before the try 10, after 4 | try stands at ['delivered'] | finished True | reward 1.0 | replay difference 0.0

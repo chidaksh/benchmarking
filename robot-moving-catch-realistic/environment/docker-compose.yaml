@@ -1,0 +1,11 @@
+services:
+  main:
+    depends_on:
+      - robot
+  robot:
+    build:
+      context: ./robot
+    mem_limit: 1g
+    # Explicit networking keeps this service reachable by name from main when the agent's network is restricted.
+    networks:
+      - default

@@ -1,0 +1,25 @@
+# Printed by catch_timing_sweep.py on model run 3's record. Each line replays the run with its first grip, and the lift after it, shifted by that much.
+
+as recorded, every action: foul
+fingers close   +0 ms from the recorded time, at 2.00 s: foul
+fingers close  +10 ms from the recorded time, at 2.01 s: foul
+fingers close  +20 ms from the recorded time, at 2.02 s: foul
+fingers close  +30 ms from the recorded time, at 2.03 s: foul
+fingers close  +40 ms from the recorded time, at 2.04 s: caught
+fingers close  +50 ms from the recorded time, at 2.05 s: caught
+fingers close  +60 ms from the recorded time, at 2.06 s: caught
+fingers close  +70 ms from the recorded time, at 2.07 s: caught
+fingers close  +80 ms from the recorded time, at 2.08 s: caught
+fingers close  +90 ms from the recorded time, at 2.09 s: caught
+fingers close +100 ms from the recorded time, at 2.10 s: caught
+fingers close +110 ms from the recorded time, at 2.11 s: caught
+fingers close +120 ms from the recorded time, at 2.12 s: caught
+fingers close +130 ms from the recorded time, at 2.13 s: caught
+fingers close +140 ms from the recorded time, at 2.14 s: caught
+fingers close +150 ms from the recorded time, at 2.15 s: caught
+fingers close +160 ms from the recorded time, at 2.16 s: foul
+fingers close +170 ms from the recorded time, at 2.17 s: lost
+fingers close +180 ms from the recorded time, at 2.18 s: lost
+fingers close +190 ms from the recorded time, at 2.19 s: lost
+fingers close +200 ms from the recorded time, at 2.20 s: lost
+caught for shifts of +40 to +150 ms

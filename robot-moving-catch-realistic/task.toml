@@ -1,0 +1,35 @@
+schema_version = "1.4"
+# The verifier grades the robot's own record, which lives in the robot's container; /app/output is kept for reading a run.
+artifacts = ["/app/output", { source = "/srv/data/robot-record.json", service = "robot" }]
+
+[task]
+name = "collinear-candidate/robot-moving-catch-realistic"
+version = "0.1.0"
+description = "Operate a live simulated seven-joint arm by joint angles with only a wrist camera and no description of the cell or of the part. The camera is noisy and slightly off its stated mount, and the joint readings are slightly off. After at most ten moves to look around, a single try starts from the park pose and moves in steps of 0.2 second, with actions taking effect one step late: bring the arm to a moving part, grip it and deliver it to a basket. The robot never says whether the catch succeeded, and nothing can be rehearsed or reset"
+authors = [{ name = "Chidaksh" }]
+keywords = ["robotics", "manipulation", "dynamic-grasping", "closed-loop-control", "perception", "long-horizon"]
+
+[metadata]
+category = "robotics"
+subcategory = "manipulation"
+difficulty = "hard"
+model_calls_in_verifier = false
+secrets_required = false
+
+[verifier]
+timeout_sec = 900.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 14400.0
+network_mode = "allowlist"
+# The robot is listed so the agent can reach it by name; nothing else is reachable but the model's own API.
+allowed_hosts = ["api.anthropic.com", "robot"]
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 1800.0
+os = "linux"
+cpus = 2
+memory_mb = 3072
+storage_mb = 10240

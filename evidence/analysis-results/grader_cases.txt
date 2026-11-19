@@ -1,0 +1,12 @@
+# Printed by grader_cases.py. Each line is one end state and the grader's verdict. After a 0 comes the name of the condition that failed.
+
+the reference run                                    overall 1    | tries ['delivered'], parts delivered and still in the basket [0], basket blocks inside [True, True, True]
+the same, but finish was not run                     overall 0  finished  | tries ['delivered'], parts delivered and still in the basket [0], basket blocks inside [True, True, True]
+the same, but over the action budget                 overall 0  within_budget  | tries ['delivered'], parts delivered and still in the basket [0], basket blocks inside [True, True, True]
+delivered, arm not parked                            overall 0  parked  | tries ['delivered'], parts delivered and still in the basket [0], basket blocks inside [True, True, True]
+no try was made                                      overall 0  delivered_enough  | tries ['waiting'], parts delivered and still in the basket [], basket blocks inside [True, True, True]
+the try was made with no action (lost)               overall 0  delivered_enough  | tries ['lost'], parts delivered and still in the basket [], basket blocks inside [True, True, True]
+caught, then let go above the track                  overall 0  delivered_enough  | tries ['dropped'], parts delivered and still in the basket [], basket blocks inside [True, True, True]
+caught and carried, never let go                     overall 0  delivered_enough parked  | tries ['caught'], parts delivered and still in the basket [], basket blocks inside [True, True, True]
+delivered, but a basket block is on the table        overall 0  basket_blocks_in_place  | tries ['delivered'], parts delivered and still in the basket [0], basket blocks inside [False, True, True]
+delivered, then the part ends outside the basket     overall 0  delivered_enough  | tries ['delivered'], parts delivered and still in the basket [], basket blocks inside [True, True, True]

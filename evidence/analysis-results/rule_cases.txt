@@ -1,0 +1,18 @@
+# Printed by rule_cases.py. Each line is one case and how the robot's rules scored it.
+
+the reference try: [(20, ['grip', 'joints']), (245, ['grip']), (254, ['joints'])]
+try with the arm over the track: the try starts from the park pose: park the arm and open the fingers first. Nothing was used up | tries used 0 ['waiting']
+try with one joint 0.03 from park: the try starts from the park pose: park the arm and open the fingers first. Nothing was used up | tries used 0
+try with one joint 0.015 from park: started
+try at park with the fingers at 0.048: the try starts from the park pose: park the arm and open the fingers first. Nothing was used up | tries used 0
+try after going to the track and back to park: started
+try with no action: lost
+closed hand brought into the lane ahead of the part: foul
+fingers standing still at 0.04: foul
+fingers standing still at 0.0405: foul
+fingers standing still at 0.041: foul
+a tap that stops the part, then a grip: foul | the arm touched it without a hold for 0.004 s
+gripped but not lifted when the try ends: lost | after lifting it once the try is over: lost
+the reference try run to its end: caught | a second try: the try has already been used
+fingers closed this many ms from the reference moment: -120: foul, -110: foul, -100: foul, -90: foul, -80: foul, -70: foul, -60: caught, -50: caught, -40: caught, -30: caught, -20: caught, -10: caught, +0: caught, +10: caught, +20: caught, +30: caught, +40: caught, +50: foul, +60: lost, +70: lost, +80: lost, +90: lost, +100: lost, +110: lost, +120: lost
+caught from -60 to +40 ms
